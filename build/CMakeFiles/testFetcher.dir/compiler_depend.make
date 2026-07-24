@@ -11,13 +11,14 @@ CMakeFiles/testFetcher.dir/main.cpp.o: /mnt/c/Users/suman/Desktop/Crawler/main.c
   /mnt/c/Users/suman/Desktop/DS_Library/src/linkedList.cpp \
   /mnt/c/Users/suman/Desktop/DS_Library/src/queue.cpp \
   /mnt/c/Users/suman/Desktop/DS_Library/include/HashFunction.h \
+  /mnt/c/Users/suman/Desktop/DS_Library/include/HashMap.h \
   /mnt/c/Users/suman/Desktop/DS_Library/include/LinkedList.h \
+  /mnt/c/Users/suman/Desktop/DS_Library/include/Queue.h \
   /mnt/c/Users/suman/Desktop/DS_Library/include/dynamicArray.h \
-  /mnt/c/Users/suman/Desktop/DS_Library/include/hashMap.h \
   /mnt/c/Users/suman/Desktop/DS_Library/include/hashmap.h \
   /mnt/c/Users/suman/Desktop/DS_Library/include/linkedList.h \
-  /mnt/c/Users/suman/Desktop/DS_Library/include/queue.h \
   /mnt/c/Users/suman/Desktop/Crawler/include/Crawler.h \
+  /mnt/c/Users/suman/Desktop/Crawler/include/Database.h \
   /mnt/c/Users/suman/Desktop/Crawler/include/FetchResult.h \
   /mnt/c/Users/suman/Desktop/Crawler/include/Fetcher.h \
   /mnt/c/Users/suman/Desktop/Crawler/include/Frontier.h \
@@ -25,6 +26,7 @@ CMakeFiles/testFetcher.dir/main.cpp.o: /mnt/c/Users/suman/Desktop/Crawler/main.c
   /mnt/c/Users/suman/Desktop/Crawler/include/PageStorage.h \
   /mnt/c/Users/suman/Desktop/Crawler/include/SeenStore.h \
   /mnt/c/Users/suman/Desktop/Crawler/include/URLNormalizer.h \
+  /mnt/c/Users/suman/Desktop/Crawler/include/frontier.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/bitsperlong.h \
   /usr/include/asm-generic/errno-base.h \
@@ -159,6 +161,7 @@ CMakeFiles/testFetcher.dir/main.cpp.o: /mnt/c/Users/suman/Desktop/Crawler/main.c
   /usr/include/locale.h \
   /usr/include/pthread.h \
   /usr/include/sched.h \
+  /usr/include/sqlite3.h \
   /usr/include/stdc-predef.h \
   /usr/include/stdint.h \
   /usr/include/stdio.h \
@@ -321,6 +324,7 @@ testFetcher: /lib64/ld-linux-x86-64.so.2 \
   /usr/lib/x86_64-linux-gnu/libresolv.so.2 \
   /usr/lib/x86_64-linux-gnu/librtmp.so.1 \
   /usr/lib/x86_64-linux-gnu/libsasl2.so.2 \
+  /usr/lib/x86_64-linux-gnu/libsqlite3.so \
   /usr/lib/x86_64-linux-gnu/libssh2.so.1 \
   /usr/lib/x86_64-linux-gnu/libssl.so.3 \
   /usr/lib/x86_64-linux-gnu/libtasn1.so.6 \
@@ -340,6 +344,8 @@ CMakeFiles/testFetcher.dir/main.cpp.o:
 /usr/lib/x86_64-linux-gnu/libtasn1.so.6:
 
 /usr/lib/x86_64-linux-gnu/libssh2.so.1:
+
+/usr/lib/x86_64-linux-gnu/libsqlite3.so:
 
 /usr/lib/x86_64-linux-gnu/libsasl2.so.2:
 
@@ -409,13 +415,11 @@ CMakeFiles/testFetcher.dir/main.cpp.o:
 
 /usr/include/x86_64-linux-gnu/curl/multi.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/15/include/stdint.h:
+/usr/include/x86_64-linux-gnu/curl/mprintf.h:
 
-/usr/include/x86_64-linux-gnu/bits/xopen_lim.h:
+/usr/include/x86_64-linux-gnu/curl/header.h:
 
-/usr/lib/x86_64-linux-gnu/libk5crypto.so.3:
-
-/usr/include/c++/15/locale:
+/usr/include/x86_64-linux-gnu/curl/curlver.h:
 
 /usr/include/c++/15/iosfwd:
 
@@ -479,17 +483,15 @@ CMakeFiles/testFetcher.dir/main.cpp.o:
 
 /usr/include/c++/15/bits/string_view.tcc:
 
-/usr/include/c++/15/istream:
-
-/usr/include/c++/15/concepts:
-
-/usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
-
 /usr/include/x86_64-linux-gnu/c++/15/bits/messages_members.h:
 
 /usr/include/c++/15/bits/sstream.tcc:
 
 /usr/include/c++/15/bits/ranges_cmp.h:
+
+/usr/include/x86_64-linux-gnu/curl/easy.h:
+
+/usr/include/c++/15/debug/debug.h:
 
 /usr/lib/x86_64-linux-gnu/librtmp.so.1:
 
@@ -533,17 +535,13 @@ CMakeFiles/testFetcher.dir/main.cpp.o:
 
 /usr/include/x86_64-linux-gnu/bits/errno.h:
 
-/usr/include/asm-generic/errno-base.h:
+/usr/include/c++/15/bits/locale_facets.tcc:
 
-/usr/include/asm-generic/sockios.h:
+/usr/include/c++/15/bits/locale_conv.h:
 
-/usr/include/c++/15/bits/quoted_string.h:
+/usr/include/ctype.h:
 
-/usr/include/asm-generic/socket.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
-
-/usr/include/c++/15/bits/charconv.h:
+/usr/include/c++/15/bits/locale_classes.tcc:
 
 /usr/include/c++/15/initializer_list:
 
@@ -552,8 +550,6 @@ CMakeFiles/testFetcher.dir/main.cpp.o:
 /usr/include/asm-generic/int-ll64.h:
 
 /mnt/c/Users/suman/Desktop/Crawler/include/LinkExtractor.h:
-
-/usr/include/x86_64-linux-gnu/curl/mprintf.h:
 
 /usr/lib/x86_64-linux-gnu/libzstd.so.1:
 
@@ -593,19 +589,9 @@ CMakeFiles/testFetcher.dir/main.cpp.o:
 
 /usr/include/c++/15/bits/ios_base.h:
 
-/usr/include/c++/15/sstream:
+/mnt/c/Users/suman/Desktop/DS_Library/include/HashMap.h:
 
-/usr/include/wchar.h:
-
-/usr/include/c++/15/bits/version.h:
-
-/usr/include/c++/15/bits/concept_check.h:
-
-/usr/include/linux/limits.h:
-
-/mnt/c/Users/suman/Desktop/Crawler/include/Fetcher.h:
-
-/usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
+/usr/include/sqlite3.h:
 
 /usr/include/c++/15/bits/locale_facets_nonio.h:
 
@@ -617,13 +603,29 @@ CMakeFiles/testFetcher.dir/main.cpp.o:
 
 /usr/include/c++/15/bits/invoke.h:
 
-/usr/include/c++/15/new:
-
-/usr/include/linux/errno.h:
-
 /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h:
 
-/usr/include/c++/15/bits/locale_classes.tcc:
+/mnt/c/Users/suman/Desktop/Crawler/include/Crawler.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o:
+
+/mnt/c/Users/suman/Desktop/DS_Library/include/HashFunction.h:
+
+/usr/include/c++/15/bits/range_access.h:
+
+/usr/include/x86_64-linux-gnu/bits/sockaddr.h:
+
+/mnt/c/Users/suman/Desktop/Crawler/include/SeenStore.h:
+
+/mnt/c/Users/suman/Desktop/DS_Library/src/queue.cpp:
+
+/mnt/c/Users/suman/Desktop/Crawler/include/frontier.h:
+
+/usr/include/c++/15/bits/quoted_string.h:
+
+/usr/include/asm-generic/socket.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
 
 /usr/include/c++/15/ctime:
 
@@ -639,29 +641,45 @@ CMakeFiles/testFetcher.dir/main.cpp.o:
 
 /usr/include/c++/15/iostream:
 
+/usr/include/c++/15/bits/version.h:
+
+/usr/include/c++/15/bits/concept_check.h:
+
+/usr/include/linux/limits.h:
+
+/mnt/c/Users/suman/Desktop/Crawler/include/Fetcher.h:
+
+/usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
+
+/mnt/c/Users/suman/Desktop/DS_Library/include/Queue.h:
+
+/usr/lib/x86_64-linux-gnu/liblber.so.2:
+
+/usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
+
+/usr/include/asm-generic/errno-base.h:
+
 /usr/lib/x86_64-linux-gnu/libbrotlidec.so.1:
 
 /usr/include/c++/15/bits/stl_function.h:
 
 /mnt/c/Users/suman/Desktop/DS_Library/src/dynamicArray.cpp:
 
+/usr/include/c++/15/bits/iterator_concepts.h:
+
+/usr/include/x86_64-linux-gnu/bits/uio_lim.h:
+
 /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o:
+/usr/include/c++/15/bits/charconv.h:
 
-/mnt/c/Users/suman/Desktop/DS_Library/include/HashFunction.h:
+/usr/include/asm-generic/sockios.h:
 
-/usr/include/c++/15/bits/range_access.h:
+/usr/include/wchar.h:
 
-/usr/include/x86_64-linux-gnu/bits/sockaddr.h:
-
-/mnt/c/Users/suman/Desktop/DS_Library/src/queue.cpp:
-
-/mnt/c/Users/suman/Desktop/Crawler/include/SeenStore.h:
-
-/mnt/c/Users/suman/Desktop/Crawler/include/Crawler.h:
+/usr/include/c++/15/sstream:
 
 /usr/lib/x86_64-linux-gnu/libmvec.so.1:
 
@@ -676,10 +694,6 @@ CMakeFiles/testFetcher.dir/main.cpp.o:
 /usr/include/c++/15/bits/streambuf.tcc:
 
 /usr/include/c++/15/bits/basic_string.tcc:
-
-/usr/include/c++/15/string_view:
-
-/usr/include/x86_64-linux-gnu/bits/long-double.h:
 
 /usr/include/c++/15/bits/char_traits.h:
 
@@ -705,13 +719,11 @@ CMakeFiles/testFetcher.dir/main.cpp.o:
 
 /usr/include/c++/15/bits/istream.tcc:
 
+/usr/include/c++/15/compare:
+
+/usr/include/c++/15/bits/cxxabi_forced.h:
+
 /usr/include/c++/15/bits/cxxabi_init_exception.h:
-
-/usr/include/c++/15/bits/locale_facets.tcc:
-
-/usr/include/c++/15/bits/locale_conv.h:
-
-/usr/include/ctype.h:
 
 /usr/include/asm-generic/posix_types.h:
 
@@ -733,13 +745,27 @@ CMakeFiles/testFetcher.dir/main.cpp.o:
 
 /usr/include/c++/15/ostream:
 
-/usr/include/c++/15/bits/iterator_concepts.h:
+/usr/include/c++/15/istream:
 
-/usr/include/x86_64-linux-gnu/bits/uio_lim.h:
+/usr/include/c++/15/concepts:
 
-/usr/include/c++/15/compare:
+/usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
 
-/usr/include/c++/15/bits/cxxabi_forced.h:
+/usr/lib/x86_64-linux-gnu/libk5crypto.so.3:
+
+/usr/include/c++/15/locale:
+
+/usr/include/x86_64-linux-gnu/bits/long-double.h:
+
+/usr/include/c++/15/string_view:
+
+/usr/include/linux/errno.h:
+
+/usr/include/c++/15/new:
+
+/usr/lib/gcc/x86_64-linux-gnu/15/include/stdint.h:
+
+/usr/include/x86_64-linux-gnu/bits/xopen_lim.h:
 
 /usr/include/c++/15/pstl/pstl_config.h:
 
@@ -847,6 +873,8 @@ CMakeFiles/testFetcher.dir/main.cpp.o:
 
 /usr/lib/x86_64-linux-gnu/libm.so.6:
 
+/mnt/c/Users/suman/Desktop/Crawler/include/Database.h:
+
 /usr/include/c++/15/bits/basic_ios.h:
 
 /usr/include/x86_64-linux-gnu/bits/locale.h:
@@ -911,10 +939,6 @@ CMakeFiles/testFetcher.dir/main.cpp.o:
 
 /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
 
-/usr/lib/x86_64-linux-gnu/liblber.so.2:
-
-/usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
-
 /usr/lib/x86_64-linux-gnu/libnghttp2.so.14:
 
 /usr/include/c++/15/bits/functexcept.h:
@@ -925,17 +949,13 @@ CMakeFiles/testFetcher.dir/main.cpp.o:
 
 /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h:
 
-/usr/include/asm-generic/types.h:
-
 /usr/include/asm-generic/bitsperlong.h:
+
+/usr/include/asm-generic/types.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
-
-/usr/include/c++/15/debug/debug.h:
-
-/usr/include/x86_64-linux-gnu/curl/easy.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
 
@@ -972,7 +992,3 @@ CMakeFiles/testFetcher.dir/main.cpp.o:
 /usr/include/c++/15/bits/hash_bytes.h:
 
 /usr/include/x86_64-linux-gnu/c++/15/bits/time_members.h:
-
-/usr/include/x86_64-linux-gnu/curl/curlver.h:
-
-/usr/include/x86_64-linux-gnu/curl/header.h:

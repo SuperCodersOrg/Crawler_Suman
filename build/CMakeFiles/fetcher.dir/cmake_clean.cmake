@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/fetcher.dir/mnt/c/Users/suman/Desktop/DS_Library/src/HashFunction.cpp.o"
   "CMakeFiles/fetcher.dir/mnt/c/Users/suman/Desktop/DS_Library/src/HashFunction.cpp.o.d"
+  "CMakeFiles/fetcher.dir/src/Database.cpp.o"
+  "CMakeFiles/fetcher.dir/src/Database.cpp.o.d"
   "CMakeFiles/fetcher.dir/src/Fetcher.cpp.o"
   "CMakeFiles/fetcher.dir/src/Fetcher.cpp.o.d"
   "CMakeFiles/fetcher.dir/src/Frontier.cpp.o"

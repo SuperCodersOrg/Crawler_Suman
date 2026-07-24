@@ -12,13 +12,14 @@ CMakeFiles/testFetcher.dir/main.cpp.o
  /mnt/c/Users/suman/Desktop/DS_Library/src/linkedList.cpp
  /mnt/c/Users/suman/Desktop/DS_Library/src/queue.cpp
  /mnt/c/Users/suman/Desktop/DS_Library/include/HashFunction.h
+ /mnt/c/Users/suman/Desktop/DS_Library/include/HashMap.h
  /mnt/c/Users/suman/Desktop/DS_Library/include/LinkedList.h
+ /mnt/c/Users/suman/Desktop/DS_Library/include/Queue.h
  /mnt/c/Users/suman/Desktop/DS_Library/include/dynamicArray.h
- /mnt/c/Users/suman/Desktop/DS_Library/include/hashMap.h
  /mnt/c/Users/suman/Desktop/DS_Library/include/hashmap.h
  /mnt/c/Users/suman/Desktop/DS_Library/include/linkedList.h
- /mnt/c/Users/suman/Desktop/DS_Library/include/queue.h
  /mnt/c/Users/suman/Desktop/Crawler/include/Crawler.h
+ /mnt/c/Users/suman/Desktop/Crawler/include/Database.h
  /mnt/c/Users/suman/Desktop/Crawler/include/FetchResult.h
  /mnt/c/Users/suman/Desktop/Crawler/include/Fetcher.h
  /mnt/c/Users/suman/Desktop/Crawler/include/Frontier.h
@@ -26,6 +27,7 @@ CMakeFiles/testFetcher.dir/main.cpp.o
  /mnt/c/Users/suman/Desktop/Crawler/include/PageStorage.h
  /mnt/c/Users/suman/Desktop/Crawler/include/SeenStore.h
  /mnt/c/Users/suman/Desktop/Crawler/include/URLNormalizer.h
+ /mnt/c/Users/suman/Desktop/Crawler/include/frontier.h
  /usr/include/alloca.h
  /usr/include/asm-generic/bitsperlong.h
  /usr/include/asm-generic/errno-base.h
@@ -160,6 +162,7 @@ CMakeFiles/testFetcher.dir/main.cpp.o
  /usr/include/locale.h
  /usr/include/pthread.h
  /usr/include/sched.h
+ /usr/include/sqlite3.h
  /usr/include/stdc-predef.h
  /usr/include/stdint.h
  /usr/include/stdio.h
@@ -323,6 +326,7 @@ testFetcher
  /usr/lib/x86_64-linux-gnu/libresolv.so.2
  /usr/lib/x86_64-linux-gnu/librtmp.so.1
  /usr/lib/x86_64-linux-gnu/libsasl2.so.2
+ /usr/lib/x86_64-linux-gnu/libsqlite3.so
  /usr/lib/x86_64-linux-gnu/libssh2.so.1
  /usr/lib/x86_64-linux-gnu/libssl.so.3
  /usr/lib/x86_64-linux-gnu/libtasn1.so.6

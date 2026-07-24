@@ -198,19 +198,16 @@ CMakeFiles/testFetcher.dir/main.cpp.o: \
  /usr/include/x86_64-linux-gnu/curl/mprintf.h \
  /mnt/c/Users/suman/Desktop/Crawler/include/../include/FetchResult.h \
  /mnt/c/Users/suman/Desktop/Crawler/include/../include/Frontier.h \
- /mnt/c/Users/suman/Desktop/Crawler/include/../include/../../DS_Library/include/queue.h \
+ /mnt/c/Users/suman/Desktop/Crawler/include/../include/../../DS_Library/include/Queue.h \
  /mnt/c/Users/suman/Desktop/Crawler/include/../include/../../DS_Library/include/LinkedList.h \
  /mnt/c/Users/suman/Desktop/Crawler/include/../include/../../DS_Library/include/../src/linkedList.cpp \
  /mnt/c/Users/suman/Desktop/Crawler/include/../include/../../DS_Library/include/../src/../include/linkedList.h \
  /mnt/c/Users/suman/Desktop/Crawler/include/../include/../../DS_Library/include/../src/queue.cpp \
  /mnt/c/Users/suman/Desktop/Crawler/include/../include/../../DS_Library/include/../src/../include/queue.h \
- /mnt/c/Users/suman/Desktop/Crawler/include/../include/LinkExtractor.h \
+ /mnt/c/Users/suman/Desktop/Crawler/include/../include/../../DS_Library/include/HashMap.h \
  /mnt/c/Users/suman/Desktop/Crawler/include/../include/../../DS_Library/include/dynamicArray.h \
  /mnt/c/Users/suman/Desktop/Crawler/include/../include/../../DS_Library/include/../src/dynamicArray.cpp \
  /mnt/c/Users/suman/Desktop/Crawler/include/../include/../../DS_Library/include/../src/../include/dynamicArray.h \
- /mnt/c/Users/suman/Desktop/Crawler/include/../include/PageStorage.h \
- /mnt/c/Users/suman/Desktop/Crawler/include/../include/../../DS_Library/include/hashMap.h \
- /mnt/c/Users/suman/Desktop/Crawler/include/../include/../../DS_Library/include/dynamicArray.h \
  /mnt/c/Users/suman/Desktop/Crawler/include/../include/../../DS_Library/include/linkedList.h \
  /mnt/c/Users/suman/Desktop/Crawler/include/../include/../../DS_Library/include/HashFunction.h \
  /usr/include/c++/15/cstdint \
@@ -228,7 +225,12 @@ CMakeFiles/testFetcher.dir/main.cpp.o: \
  /usr/include/c++/15/bits/quoted_string.h /usr/include/c++/15/sstream \
  /usr/include/c++/15/bits/sstream.tcc \
  /mnt/c/Users/suman/Desktop/Crawler/include/../include/../../DS_Library/include/../src/../include/hashMap.h \
+ /mnt/c/Users/suman/Desktop/Crawler/include/../include/LinkExtractor.h \
+ /mnt/c/Users/suman/Desktop/Crawler/include/../include/../../DS_Library/include/dynamicArray.h \
+ /mnt/c/Users/suman/Desktop/Crawler/include/../include/PageStorage.h \
+ /mnt/c/Users/suman/Desktop/Crawler/include/../include/Database.h \
+ /usr/include/sqlite3.h \
+ /mnt/c/Users/suman/Desktop/Crawler/include/../include/frontier.h \
  /mnt/c/Users/suman/Desktop/Crawler/include/../include/SeenStore.h \
  /mnt/c/Users/suman/Desktop/Crawler/include/../include/../../DS_Library/include/hashmap.h \
- /mnt/c/Users/suman/Desktop/Crawler/include/../include/URLNormalizer.h \
- /mnt/c/Users/suman/Desktop/Crawler/include/../include/PageStorage.h
+ /mnt/c/Users/suman/Desktop/Crawler/include/../include/URLNormalizer.h

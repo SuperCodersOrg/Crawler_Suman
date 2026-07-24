@@ -1,0 +1,369 @@
+{
+  "tests": 63,
+  "name": "AllTests",
+  "testsuites": [
+    {
+      "name": "URLNormalizerTest",
+      "tests": 7,
+      "testsuite": [
+        {
+          "name": "NormalizeStandardURLs",
+          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/URLNormalizerTest.cpp",
+          "line": 18
+        },
+        {
+          "name": "NormalizeRemovesUnnecessaryComponents",
+          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/URLNormalizerTest.cpp",
+          "line": 52
+        },
+        {
+          "name": "RejectInvalidStandaloneURLs",
+          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/URLNormalizerTest.cpp",
+          "line": 72
+        },
+        {
+          "name": "NormalizeRelativeURLs",
+          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/URLNormalizerTest.cpp",
+          "line": 115
+        },
+        {
+          "name": "NormalizeAbsoluteURLWithBase",
+          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/URLNormalizerTest.cpp",
+          "line": 148
+        },
+        {
+          "name": "NormalizeComplexRelativeURL",
+          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/URLNormalizerTest.cpp",
+          "line": 160
+        },
+        {
+          "name": "RejectInvalidRelativeURLs",
+          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/URLNormalizerTest.cpp",
+          "line": 172
+        }
+      ]
+    },
+    {
+      "name": "LinkExtractorTest",
+      "tests": 9,
+      "testsuite": [
+        {
+          "name": "EmptyHTMLReturnsNoLinks",
+          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/LinkExtractorTest.cpp",
+          "line": 16
+        },
+        {
+          "name": "HTMLWithoutAnchorReturnsNoLinks",
+          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/LinkExtractorTest.cpp",
+          "line": 27
+        },
+        {
+          "name": "ExtractDoubleQuotedHref",
+          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/LinkExtractorTest.cpp",
+          "line": 43
+        },
+        {
+          "name": "ExtractDifferentHrefFormats",
+          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/LinkExtractorTest.cpp",
+          "line": 62
+        },
+        {
+          "name": "ExtractMultipleLinks",
+          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/LinkExtractorTest.cpp",
+          "line": 87
+        },
+        {
+          "name": "HandlesUppercaseAnchorAndHref",
+          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/LinkExtractorTest.cpp",
+          "line": 108
+        },
+        {
+          "name": "IgnoresNonAnchorAndInvalidHref",
+          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/LinkExtractorTest.cpp",
+          "line": 127
+        },
+        {
+          "name": "HandlesWhitespaceAroundEquals",
+          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/LinkExtractorTest.cpp",
+          "line": 151
+        },
+        {
+          "name": "IgnoresEmptyHref",
+          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/LinkExtractorTest.cpp",
+          "line": 172
+        }
+      ]
+    },
+    {
+      "name": "FetcherTest",
+      "tests": 6,
+      "testsuite": [
+        {
+          "name": "FetchValidPage",
+          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/FetcherTest.cpp",
+          "line": 11
+        },
+        {
+          "name": "FetchHTTPSPage",
+          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/FetcherTest.cpp",
+          "line": 23
+        },
+        {
+          "name": "InvalidDomain",
+          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/FetcherTest.cpp",
+          "line": 34
+        },
+        {
+          "name": "MalformedURL",
+          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/FetcherTest.cpp",
+          "line": 43
+        },
+        {
+          "name": "EmptyURL",
+          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/FetcherTest.cpp",
+          "line": 52
+        },
+        {
+          "name": "MultipleSequentialRequests",
+          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/FetcherTest.cpp",
+          "line": 61
+        }
+      ]
+    },
+    {
+      "name": "URLDepthTest",
+      "tests": 2,
+      "testsuite": [
+        {
+          "name": "StoresURLAndDepth",
+          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/FrontierTest.cpp",
+          "line": 10
+        },
+        {
+          "name": "EqualityChecksOnlyURL",
+          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/FrontierTest.cpp",
+          "line": 29
+        }
+      ]
+    },
+    {
+      "name": "FrontierTest",
+      "tests": 8,
+      "testsuite": [
+        {
+          "name": "NewFrontierIsEmpty",
+          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/FrontierTest.cpp",
+          "line": 61
+        },
+        {
+          "name": "PushAndFrontReturnsCorrectURLDepth",
+          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/FrontierTest.cpp",
+          "line": 75
+        },
+        {
+          "name": "PopMaintainsFIFOOrder",
+          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/FrontierTest.cpp",
+          "line": 110
+        },
+        {
+          "name": "DuplicateURLIsIgnored",
+          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/FrontierTest.cpp",
+          "line": 150
+        },
+        {
+          "name": "ContainsTracksPendingURLs",
+          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/FrontierTest.cpp",
+          "line": 181
+        },
+        {
+          "name": "MultipleURLsFollowFIFO",
+          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/FrontierTest.cpp",
+          "line": 216
+        },
+        {
+          "name": "ReinsertAfterPopWorks",
+          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/FrontierTest.cpp",
+          "line": 262
+        },
+        {
+          "name": "SizeUpdatesCorrectly",
+          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/FrontierTest.cpp",
+          "line": 293
+        }
+      ]
+    },
+    {
+      "name": "SeenStoreTest",
+      "tests": 5,
+      "testsuite": [
+        {
+          "name": "NewSeenStoreIsEmpty",
+          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/SeenStoreTest.cpp",
+          "line": 19
+        },
+        {
+          "name": "InsertURLAndCheckExistence",
+          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/SeenStoreTest.cpp",
+          "line": 43
+        },
+        {
+          "name": "DuplicateURLDoesNotCreateMultipleEntries",
+          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/SeenStoreTest.cpp",
+          "line": 65
+        },
+        {
+          "name": "StoresMultipleCompletedURLs",
+          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/SeenStoreTest.cpp",
+          "line": 93
+        },
+        {
+          "name": "ClearRemovesAllURLs",
+          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/SeenStoreTest.cpp",
+          "line": 136
+        }
+      ]
+    },
+    {
+      "name": "PageStorageTest",
+      "tests": 11,
+      "testsuite": [
+        {
+          "name": "NewStorageIsEmpty",
+          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/PageStorageTest.cpp",
+          "line": 39
+        },
+        {
+          "name": "AddPendingURLSuccessfully",
+          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/PageStorageTest.cpp",
+          "line": 60
+        },
+        {
+          "name": "StoreSinglePage",
+          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/PageStorageTest.cpp",
+          "line": 77
+        },
+        {
+          "name": "RetrieveStoredHTML",
+          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/PageStorageTest.cpp",
+          "line": 117
+        },
+        {
+          "name": "MissingPageReturnsEmpty",
+          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/PageStorageTest.cpp",
+          "line": 153
+        },
+        {
+          "name": "UnknownURLHasNoStoredPage",
+          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/PageStorageTest.cpp",
+          "line": 165
+        },
+        {
+          "name": "StoreMultiplePages",
+          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/PageStorageTest.cpp",
+          "line": 181
+        },
+        {
+          "name": "EmptyHTMLCanBeStored",
+          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/PageStorageTest.cpp",
+          "line": 245
+        },
+        {
+          "name": "StorePageCreatesPersistentFile",
+          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/PageStorageTest.cpp",
+          "line": 281
+        },
+        {
+          "name": "RecoverCrawlerState",
+          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/PageStorageTest.cpp",
+          "line": 318
+        },
+        {
+          "name": "GetURLByIDReturnsCorrectURL",
+          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/PageStorageTest.cpp",
+          "line": 391
+        }
+      ]
+    },
+    {
+      "name": "CrawlerTest",
+      "tests": 15,
+      "testsuite": [
+        {
+          "name": "EmptyURLDoesNothing",
+          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/CrawlerTest.cpp",
+          "line": 32
+        },
+        {
+          "name": "WhiteSpaceURLDoesNothing",
+          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/CrawlerTest.cpp",
+          "line": 42
+        },
+        {
+          "name": "InvalidSchemeDoesNotCrash",
+          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/CrawlerTest.cpp",
+          "line": 52
+        },
+        {
+          "name": "CrawlGoogle",
+          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/CrawlerTest.cpp",
+          "line": 67
+        },
+        {
+          "name": "CrawlExampleDotCom",
+          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/CrawlerTest.cpp",
+          "line": 77
+        },
+        {
+          "name": "CrawlWikipedia",
+          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/CrawlerTest.cpp",
+          "line": 87
+        },
+        {
+          "name": "NonExistingDomainDoesNotCrash",
+          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/CrawlerTest.cpp",
+          "line": 102
+        },
+        {
+          "name": "CrawlingSameSeedTwiceDoesNotCrash",
+          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/CrawlerTest.cpp",
+          "line": 117
+        },
+        {
+          "name": "URLContainingSpacesDoesNotCrash",
+          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/CrawlerTest.cpp",
+          "line": 134
+        },
+        {
+          "name": "MaxPageLimitOne",
+          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/CrawlerTest.cpp",
+          "line": 149
+        },
+        {
+          "name": "MaxPageLimitFive",
+          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/CrawlerTest.cpp",
+          "line": 159
+        },
+        {
+          "name": "DepthZero",
+          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/CrawlerTest.cpp",
+          "line": 174
+        },
+        {
+          "name": "DepthTwo",
+          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/CrawlerTest.cpp",
+          "line": 184
+        },
+        {
+          "name": "RedirectURL",
+          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/CrawlerTest.cpp",
+          "line": 199
+        },
+        {
+          "name": "ResumeAfterRestart",
+          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/CrawlerTest.cpp",
+          "line": 214
+        }
+      ]
+    }
+  ]
+}

@@ -65,6 +65,16 @@ CMAKE_BINARY_DIR = /mnt/c/Users/suman/Desktop/Crawler/build
 #=============================================================================
 # Targets provided globally by CMake.
 
+# Special rule for the target test
+test:
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running tests..."
+	/usr/bin/ctest $(ARGS)
+.PHONY : test
+
+# Special rule for the target test
+test/fast: test
+.PHONY : test/fast
+
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "No interactive CMake dialog available..."
@@ -142,6 +152,19 @@ testFetcher/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/testFetcher.dir/build.make CMakeFiles/testFetcher.dir/build
 .PHONY : testFetcher/fast
 
+#=============================================================================
+# Target rules for targets named URLNormalizerTesting
+
+# Build rule for target.
+URLNormalizerTesting: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 URLNormalizerTesting
+.PHONY : URLNormalizerTesting
+
+# fast build rule for target.
+URLNormalizerTesting/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/URLNormalizerTesting.dir/build.make CMakeFiles/URLNormalizerTesting.dir/build
+.PHONY : URLNormalizerTesting/fast
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -189,6 +212,30 @@ mnt/c/Users/suman/Desktop/DS_Library/src/HashFunction.s: mnt/c/Users/suman/Deskt
 mnt/c/Users/suman/Desktop/DS_Library/src/HashFunction.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fetcher.dir/build.make CMakeFiles/fetcher.dir/mnt/c/Users/suman/Desktop/DS_Library/src/HashFunction.cpp.s
 .PHONY : mnt/c/Users/suman/Desktop/DS_Library/src/HashFunction.cpp.s
+
+src/Database.o: src/Database.cpp.o
+.PHONY : src/Database.o
+
+# target to build an object file
+src/Database.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fetcher.dir/build.make CMakeFiles/fetcher.dir/src/Database.cpp.o
+.PHONY : src/Database.cpp.o
+
+src/Database.i: src/Database.cpp.i
+.PHONY : src/Database.i
+
+# target to preprocess a source file
+src/Database.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fetcher.dir/build.make CMakeFiles/fetcher.dir/src/Database.cpp.i
+.PHONY : src/Database.cpp.i
+
+src/Database.s: src/Database.cpp.s
+.PHONY : src/Database.s
+
+# target to generate assembly for a file
+src/Database.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fetcher.dir/build.make CMakeFiles/fetcher.dir/src/Database.cpp.s
+.PHONY : src/Database.cpp.s
 
 src/Fetcher.o: src/Fetcher.cpp.o
 .PHONY : src/Fetcher.o
@@ -358,6 +405,174 @@ src/crawler.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fetcher.dir/build.make CMakeFiles/fetcher.dir/src/crawler.cpp.s
 .PHONY : src/crawler.cpp.s
 
+testing/CrawlerTest.o: testing/CrawlerTest.cpp.o
+.PHONY : testing/CrawlerTest.o
+
+# target to build an object file
+testing/CrawlerTest.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/URLNormalizerTesting.dir/build.make CMakeFiles/URLNormalizerTesting.dir/testing/CrawlerTest.cpp.o
+.PHONY : testing/CrawlerTest.cpp.o
+
+testing/CrawlerTest.i: testing/CrawlerTest.cpp.i
+.PHONY : testing/CrawlerTest.i
+
+# target to preprocess a source file
+testing/CrawlerTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/URLNormalizerTesting.dir/build.make CMakeFiles/URLNormalizerTesting.dir/testing/CrawlerTest.cpp.i
+.PHONY : testing/CrawlerTest.cpp.i
+
+testing/CrawlerTest.s: testing/CrawlerTest.cpp.s
+.PHONY : testing/CrawlerTest.s
+
+# target to generate assembly for a file
+testing/CrawlerTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/URLNormalizerTesting.dir/build.make CMakeFiles/URLNormalizerTesting.dir/testing/CrawlerTest.cpp.s
+.PHONY : testing/CrawlerTest.cpp.s
+
+testing/FetcherTest.o: testing/FetcherTest.cpp.o
+.PHONY : testing/FetcherTest.o
+
+# target to build an object file
+testing/FetcherTest.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/URLNormalizerTesting.dir/build.make CMakeFiles/URLNormalizerTesting.dir/testing/FetcherTest.cpp.o
+.PHONY : testing/FetcherTest.cpp.o
+
+testing/FetcherTest.i: testing/FetcherTest.cpp.i
+.PHONY : testing/FetcherTest.i
+
+# target to preprocess a source file
+testing/FetcherTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/URLNormalizerTesting.dir/build.make CMakeFiles/URLNormalizerTesting.dir/testing/FetcherTest.cpp.i
+.PHONY : testing/FetcherTest.cpp.i
+
+testing/FetcherTest.s: testing/FetcherTest.cpp.s
+.PHONY : testing/FetcherTest.s
+
+# target to generate assembly for a file
+testing/FetcherTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/URLNormalizerTesting.dir/build.make CMakeFiles/URLNormalizerTesting.dir/testing/FetcherTest.cpp.s
+.PHONY : testing/FetcherTest.cpp.s
+
+testing/FrontierTest.o: testing/FrontierTest.cpp.o
+.PHONY : testing/FrontierTest.o
+
+# target to build an object file
+testing/FrontierTest.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/URLNormalizerTesting.dir/build.make CMakeFiles/URLNormalizerTesting.dir/testing/FrontierTest.cpp.o
+.PHONY : testing/FrontierTest.cpp.o
+
+testing/FrontierTest.i: testing/FrontierTest.cpp.i
+.PHONY : testing/FrontierTest.i
+
+# target to preprocess a source file
+testing/FrontierTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/URLNormalizerTesting.dir/build.make CMakeFiles/URLNormalizerTesting.dir/testing/FrontierTest.cpp.i
+.PHONY : testing/FrontierTest.cpp.i
+
+testing/FrontierTest.s: testing/FrontierTest.cpp.s
+.PHONY : testing/FrontierTest.s
+
+# target to generate assembly for a file
+testing/FrontierTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/URLNormalizerTesting.dir/build.make CMakeFiles/URLNormalizerTesting.dir/testing/FrontierTest.cpp.s
+.PHONY : testing/FrontierTest.cpp.s
+
+testing/LinkExtractorTest.o: testing/LinkExtractorTest.cpp.o
+.PHONY : testing/LinkExtractorTest.o
+
+# target to build an object file
+testing/LinkExtractorTest.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/URLNormalizerTesting.dir/build.make CMakeFiles/URLNormalizerTesting.dir/testing/LinkExtractorTest.cpp.o
+.PHONY : testing/LinkExtractorTest.cpp.o
+
+testing/LinkExtractorTest.i: testing/LinkExtractorTest.cpp.i
+.PHONY : testing/LinkExtractorTest.i
+
+# target to preprocess a source file
+testing/LinkExtractorTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/URLNormalizerTesting.dir/build.make CMakeFiles/URLNormalizerTesting.dir/testing/LinkExtractorTest.cpp.i
+.PHONY : testing/LinkExtractorTest.cpp.i
+
+testing/LinkExtractorTest.s: testing/LinkExtractorTest.cpp.s
+.PHONY : testing/LinkExtractorTest.s
+
+# target to generate assembly for a file
+testing/LinkExtractorTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/URLNormalizerTesting.dir/build.make CMakeFiles/URLNormalizerTesting.dir/testing/LinkExtractorTest.cpp.s
+.PHONY : testing/LinkExtractorTest.cpp.s
+
+testing/PageStorageTest.o: testing/PageStorageTest.cpp.o
+.PHONY : testing/PageStorageTest.o
+
+# target to build an object file
+testing/PageStorageTest.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/URLNormalizerTesting.dir/build.make CMakeFiles/URLNormalizerTesting.dir/testing/PageStorageTest.cpp.o
+.PHONY : testing/PageStorageTest.cpp.o
+
+testing/PageStorageTest.i: testing/PageStorageTest.cpp.i
+.PHONY : testing/PageStorageTest.i
+
+# target to preprocess a source file
+testing/PageStorageTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/URLNormalizerTesting.dir/build.make CMakeFiles/URLNormalizerTesting.dir/testing/PageStorageTest.cpp.i
+.PHONY : testing/PageStorageTest.cpp.i
+
+testing/PageStorageTest.s: testing/PageStorageTest.cpp.s
+.PHONY : testing/PageStorageTest.s
+
+# target to generate assembly for a file
+testing/PageStorageTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/URLNormalizerTesting.dir/build.make CMakeFiles/URLNormalizerTesting.dir/testing/PageStorageTest.cpp.s
+.PHONY : testing/PageStorageTest.cpp.s
+
+testing/SeenStoreTest.o: testing/SeenStoreTest.cpp.o
+.PHONY : testing/SeenStoreTest.o
+
+# target to build an object file
+testing/SeenStoreTest.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/URLNormalizerTesting.dir/build.make CMakeFiles/URLNormalizerTesting.dir/testing/SeenStoreTest.cpp.o
+.PHONY : testing/SeenStoreTest.cpp.o
+
+testing/SeenStoreTest.i: testing/SeenStoreTest.cpp.i
+.PHONY : testing/SeenStoreTest.i
+
+# target to preprocess a source file
+testing/SeenStoreTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/URLNormalizerTesting.dir/build.make CMakeFiles/URLNormalizerTesting.dir/testing/SeenStoreTest.cpp.i
+.PHONY : testing/SeenStoreTest.cpp.i
+
+testing/SeenStoreTest.s: testing/SeenStoreTest.cpp.s
+.PHONY : testing/SeenStoreTest.s
+
+# target to generate assembly for a file
+testing/SeenStoreTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/URLNormalizerTesting.dir/build.make CMakeFiles/URLNormalizerTesting.dir/testing/SeenStoreTest.cpp.s
+.PHONY : testing/SeenStoreTest.cpp.s
+
+testing/URLNormalizerTest.o: testing/URLNormalizerTest.cpp.o
+.PHONY : testing/URLNormalizerTest.o
+
+# target to build an object file
+testing/URLNormalizerTest.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/URLNormalizerTesting.dir/build.make CMakeFiles/URLNormalizerTesting.dir/testing/URLNormalizerTest.cpp.o
+.PHONY : testing/URLNormalizerTest.cpp.o
+
+testing/URLNormalizerTest.i: testing/URLNormalizerTest.cpp.i
+.PHONY : testing/URLNormalizerTest.i
+
+# target to preprocess a source file
+testing/URLNormalizerTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/URLNormalizerTesting.dir/build.make CMakeFiles/URLNormalizerTesting.dir/testing/URLNormalizerTest.cpp.i
+.PHONY : testing/URLNormalizerTest.cpp.i
+
+testing/URLNormalizerTest.s: testing/URLNormalizerTest.cpp.s
+.PHONY : testing/URLNormalizerTest.s
+
+# target to generate assembly for a file
+testing/URLNormalizerTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/URLNormalizerTesting.dir/build.make CMakeFiles/URLNormalizerTesting.dir/testing/URLNormalizerTest.cpp.s
+.PHONY : testing/URLNormalizerTest.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -366,6 +581,8 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... test"
+	@echo "... URLNormalizerTesting"
 	@echo "... fetcher"
 	@echo "... testFetcher"
 	@echo "... main.o"
@@ -374,6 +591,9 @@ help:
 	@echo "... mnt/c/Users/suman/Desktop/DS_Library/src/HashFunction.o"
 	@echo "... mnt/c/Users/suman/Desktop/DS_Library/src/HashFunction.i"
 	@echo "... mnt/c/Users/suman/Desktop/DS_Library/src/HashFunction.s"
+	@echo "... src/Database.o"
+	@echo "... src/Database.i"
+	@echo "... src/Database.s"
 	@echo "... src/Fetcher.o"
 	@echo "... src/Fetcher.i"
 	@echo "... src/Fetcher.s"
@@ -395,6 +615,27 @@ help:
 	@echo "... src/crawler.o"
 	@echo "... src/crawler.i"
 	@echo "... src/crawler.s"
+	@echo "... testing/CrawlerTest.o"
+	@echo "... testing/CrawlerTest.i"
+	@echo "... testing/CrawlerTest.s"
+	@echo "... testing/FetcherTest.o"
+	@echo "... testing/FetcherTest.i"
+	@echo "... testing/FetcherTest.s"
+	@echo "... testing/FrontierTest.o"
+	@echo "... testing/FrontierTest.i"
+	@echo "... testing/FrontierTest.s"
+	@echo "... testing/LinkExtractorTest.o"
+	@echo "... testing/LinkExtractorTest.i"
+	@echo "... testing/LinkExtractorTest.s"
+	@echo "... testing/PageStorageTest.o"
+	@echo "... testing/PageStorageTest.i"
+	@echo "... testing/PageStorageTest.s"
+	@echo "... testing/SeenStoreTest.o"
+	@echo "... testing/SeenStoreTest.i"
+	@echo "... testing/SeenStoreTest.s"
+	@echo "... testing/URLNormalizerTest.o"
+	@echo "... testing/URLNormalizerTest.i"
+	@echo "... testing/URLNormalizerTest.s"
 .PHONY : help
 
 

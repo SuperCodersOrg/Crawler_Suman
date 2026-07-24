@@ -1,0 +1,8 @@
+39:PageStorageTest.AddPendingURLSuccessfully
+40:PageStorageTest.StoreSinglePage
+41:PageStorageTest.RetrieveStoredHTML
+44:PageStorageTest.StoreMultiplePages
+45:PageStorageTest.EmptyHTMLCanBeStored
+46:PageStorageTest.StorePageCreatesPersistentFile
+47:PageStorageTest.RecoverCrawlerState
+48:PageStorageTest.GetURLByIDReturnsCorrectURL

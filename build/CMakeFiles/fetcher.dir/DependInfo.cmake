@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/mnt/c/Users/suman/Desktop/DS_Library/src/HashFunction.cpp" "CMakeFiles/fetcher.dir/mnt/c/Users/suman/Desktop/DS_Library/src/HashFunction.cpp.o" "gcc" "CMakeFiles/fetcher.dir/mnt/c/Users/suman/Desktop/DS_Library/src/HashFunction.cpp.o.d"
+  "/mnt/c/Users/suman/Desktop/Crawler/src/Database.cpp" "CMakeFiles/fetcher.dir/src/Database.cpp.o" "gcc" "CMakeFiles/fetcher.dir/src/Database.cpp.o.d"
   "/mnt/c/Users/suman/Desktop/Crawler/src/Fetcher.cpp" "CMakeFiles/fetcher.dir/src/Fetcher.cpp.o" "gcc" "CMakeFiles/fetcher.dir/src/Fetcher.cpp.o.d"
   "/mnt/c/Users/suman/Desktop/Crawler/src/Frontier.cpp" "CMakeFiles/fetcher.dir/src/Frontier.cpp.o" "gcc" "CMakeFiles/fetcher.dir/src/Frontier.cpp.o.d"
   "/mnt/c/Users/suman/Desktop/Crawler/src/LinkExtractor.cpp" "CMakeFiles/fetcher.dir/src/LinkExtractor.cpp.o" "gcc" "CMakeFiles/fetcher.dir/src/LinkExtractor.cpp.o.d"
