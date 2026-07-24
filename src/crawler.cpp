@@ -1,9 +1,7 @@
 #include <iostream>
 #include "../include/Crawler.h"
 
-Crawler::Crawler(int maxDepth,int maxPages): maxDepth(maxDepth),maxPages(maxPages){
-    initializeCrawler();
-}
+Crawler::Crawler(int maxDepth,int maxPages): maxDepth(maxDepth),maxPages(maxPages){}
 
 void Crawler::initializeCrawler(){
     storage.recoverCrawlerState(frontier,seen);
@@ -11,6 +9,9 @@ void Crawler::initializeCrawler(){
 
 void Crawler::crawl(string seedURL){
     seedURL = normalizer.normalize(seedURL);
+    if(storage.hasPage(seedURL)){
+        initializeCrawler();
+    }
     if(!seedURL.empty() && !seen.contains(seedURL) && !frontier.contains(seedURL)){
         if(storage.addPendingURL(seedURL, 0)){
             URLDepth baseURL(seedURL, 0);

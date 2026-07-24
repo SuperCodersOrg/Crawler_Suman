@@ -144,9 +144,7 @@ bool PageStorage::hasPage(
     string fileName =
         database.getFileName(url);
 
-    return !fileName.empty() &&
-           fs::exists(
-               buildFilePath(fileName));
+    return !fileName.empty()&& fs::exists(buildFilePath(fileName));
 }
 
 int PageStorage::pageCount()
