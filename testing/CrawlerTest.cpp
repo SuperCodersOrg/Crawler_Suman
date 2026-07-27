@@ -79,7 +79,7 @@ TEST_F(CrawlerTest, CrawlExampleDotCom)
     Crawler crawler(1,5);
 
     EXPECT_NO_THROW(
-        crawler.crawl("https://example.com");
+        crawler.crawl("http://quotes.toscrape.com");
     );
 }
 
@@ -118,10 +118,10 @@ TEST_F(CrawlerTest, CrawlingSameSeedTwiceDoesNotCrash)
 {
     Crawler crawler(1,5);
 
-    crawler.crawl("https://example.com");
+    crawler.crawl("http://quotes.toscrape.com");
 
     EXPECT_NO_THROW(
-        crawler.crawl("https://example.com");
+        crawler.crawl("http://quotes.toscrape.com");
     );
 }
 
@@ -136,7 +136,7 @@ TEST_F(CrawlerTest, URLContainingSpacesDoesNotCrash)
     Crawler crawler(1,5);
 
     EXPECT_NO_THROW(
-        crawler.crawl("   https://example.com   ");
+        crawler.crawl("   http://quotes.toscrape.com   ");
     );
 }
 
@@ -151,7 +151,7 @@ TEST_F(CrawlerTest, MaxPageLimitOne)
     Crawler crawler(5,1);
 
     EXPECT_NO_THROW(
-        crawler.crawl("https://example.com");
+        crawler.crawl("http://quotes.toscrape.com");
     );
 }
 
@@ -161,7 +161,7 @@ TEST_F(CrawlerTest, MaxPageLimitFive)
     Crawler crawler(5,5);
 
     EXPECT_NO_THROW(
-        crawler.crawl("https://example.com");
+        crawler.crawl("http://quotes.toscrape.com");
     );
 }
 
@@ -176,7 +176,7 @@ TEST_F(CrawlerTest, DepthZero)
     Crawler crawler(0,20);
 
     EXPECT_NO_THROW(
-        crawler.crawl("https://example.com");
+        crawler.crawl("http://quotes.toscrape.com");
     );
 }
 
@@ -186,7 +186,7 @@ TEST_F(CrawlerTest, DepthTwo)
     Crawler crawler(2,20);
 
     EXPECT_NO_THROW(
-        crawler.crawl("https://example.com");
+        crawler.crawl("http://quotes.toscrape.com");
     );
 }
 
@@ -201,7 +201,7 @@ TEST_F(CrawlerTest, RedirectURL)
     Crawler crawler(1,5);
 
     EXPECT_NO_THROW(
-        crawler.crawl("http://example.com");
+        crawler.crawl("http://quotes.toscrape.com");
     );
 }
 
@@ -216,13 +216,13 @@ TEST_F(CrawlerTest, ResumeAfterRestart)
     {
         Crawler crawler(1,5);
 
-        crawler.crawl("https://example.com");
+        crawler.crawl("http://quotes.toscrape.com");
     }
 
     EXPECT_NO_THROW(
     {
         Crawler crawler(1,5);
 
-        crawler.crawl("https://example.com");
+        crawler.crawl("http://quotes.toscrape.com");
     });
 }

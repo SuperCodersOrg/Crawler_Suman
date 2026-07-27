@@ -10,7 +10,7 @@ int main()
     cout << "=========================================\n\n";
 
     const string seedURL =
-        "https://studyadda.onrender.com";
+        "http://quotes.toscrape.com";
 
     const int MAX_DEPTH = 2;
     const int MAX_PAGES = 40;
