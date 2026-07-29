@@ -480,3 +480,127 @@ string Database::getURLByID(int id)
 
     return url;
 }
+
+
+
+// ==================================================
+// Indexer Database Operations
+// ==================================================
+
+bool Database::createPostingTable(){
+    string sql =
+        "CREATE TABLE IF NOT EXISTS postings("
+        "word TEXT NOT NULL,"
+        "pageID INTEGER NOT NULL,"
+        "frequency INTEGER NOT NULL,"
+        "PRIMARY KEY(word,pageID)"
+        ");";
+    return execute(sql);
+}
+
+
+
+bool Database::insertPosting(const string& word,int pageID,int frequency)
+{
+    string sql =
+        "INSERT INTO postings"
+        "(word,pageID,frequency)"
+        "VALUES(?,?,?);";
+
+    sqlite3_stmt* stmt;
+
+    if(sqlite3_prepare_v2(
+            db,
+            sql.c_str(),
+            -1,
+            &stmt,
+            nullptr)
+        != SQLITE_OK)
+    {
+        return false;
+    }
+
+    sqlite3_bind_text(
+        stmt,
+        1,
+        word.c_str(),
+        -1,
+        SQLITE_TRANSIENT
+    );
+
+    sqlite3_bind_int(
+        stmt,
+        2,
+        pageID
+    );
+
+    sqlite3_bind_int(
+        stmt,
+        3,
+        frequency
+    );
+
+    bool success =
+        sqlite3_step(stmt)
+        == SQLITE_DONE;
+
+    sqlite3_finalize(stmt);
+
+    return success;
+}
+
+
+
+DynamicArray<PostingRecord> Database::loadAllPostings(){
+    DynamicArray<PostingRecord> records;
+    string sql =
+        "SELECT word,pageID,frequency "
+        "FROM postings "
+        "ORDER BY pageID;";
+
+    sqlite3_stmt* stmt;
+
+    if(sqlite3_prepare_v2(
+            db,
+            sql.c_str(),
+            -1,
+            &stmt,
+            nullptr)
+        != SQLITE_OK)
+    {
+        return records;
+    }
+
+    while(sqlite3_step(stmt) == SQLITE_ROW)
+    {
+        string word =
+            reinterpret_cast<const char*>(
+                sqlite3_column_text(stmt,0));
+
+        int pageID =
+            sqlite3_column_int(stmt,1);
+
+        int frequency =
+            sqlite3_column_int(stmt,2);
+
+        records.push_back(
+            PostingRecord(
+                word,
+                pageID,
+                frequency
+            )
+        );
+    }
+
+    sqlite3_finalize(stmt);
+
+    return records;
+}
+
+
+
+void Database::clearPostings(){
+    execute(
+        "DELETE FROM postings;"
+    );
+}

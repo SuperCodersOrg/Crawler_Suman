@@ -3,17 +3,22 @@
 
 #include <sqlite3.h>
 #include <string>
-#include "../../DS_Library/include/dynamicArray.h"
+
+#include "../../DS_Library/include/DynamicArray.h"
+
 #include "Frontier.h"
+#include "PostingRecord.h"
 
 using namespace std;
 
 class Database
 {
 private:
+
     sqlite3* db;
 
 public:
+
     Database();
     ~Database();
 
@@ -22,6 +27,7 @@ public:
     // ==============================
 
     bool open(const string& databaseName);
+
     void close();
 
     bool execute(const string& query);
@@ -29,22 +35,14 @@ public:
     sqlite3* getConnection();
 
     // ==============================
-    // Database Initialization
+    // Crawler Database
     // ==============================
 
     bool createURLTable();
 
-    // ==============================
-    // Pending URL Operations
-    // ==============================
-
     bool insertPendingURL(
         const string& url,
         int depth);
-
-    // ==============================
-    // Stored Page Operations
-    // ==============================
 
     int getNextFileId();
 
@@ -64,13 +62,15 @@ public:
 
     int getStoredPageCount();
 
-    // ==============================
-    // Recovery Operations
-    // ==============================
-
     DynamicArray<URLDepth> loadPendingURLs();
 
     DynamicArray<string> loadCompletedURLs();
+
+ 
+    bool createPostingTable();
+    bool insertPosting(const string& word,int pageID,int frequency);
+    DynamicArray<PostingRecord> loadAllPostings();
+    void clearPostings();
 };
 
 #endif
