@@ -152,8 +152,6 @@ int PageStorage::pageCount()
     return database.getStoredPageCount();
 }
 
-string PageStorage::getURLByID(
-    int id)
-{
+string PageStorage::getURLByID(int id){
     return database.getURLByID(id);
 }

@@ -230,7 +230,18 @@ CMakeFiles/testFetcher.dir/main.cpp.o: \
  /mnt/c/Users/suman/Desktop/Crawler/include/../include/PageStorage.h \
  /mnt/c/Users/suman/Desktop/Crawler/include/../include/Database.h \
  /usr/include/sqlite3.h \
+ /mnt/c/Users/suman/Desktop/Crawler/include/../include/../../DS_Library/include/DynamicArray.h \
+ /mnt/c/Users/suman/Desktop/Crawler/include/../include/PostingRecord.h \
  /mnt/c/Users/suman/Desktop/Crawler/include/../include/frontier.h \
  /mnt/c/Users/suman/Desktop/Crawler/include/../include/SeenStore.h \
  /mnt/c/Users/suman/Desktop/Crawler/include/../include/../../DS_Library/include/hashmap.h \
- /mnt/c/Users/suman/Desktop/Crawler/include/../include/URLNormalizer.h
+ /mnt/c/Users/suman/Desktop/Crawler/include/../include/URLNormalizer.h \
+ /mnt/c/Users/suman/Desktop/Crawler/include/../include/Indexer.h \
+ /mnt/c/Users/suman/Desktop/Crawler/include/../include/HTMLParser.h \
+ /mnt/c/Users/suman/Desktop/Crawler/include/../include/Tokenizer.h \
+ /mnt/c/Users/suman/Desktop/Crawler/include/../include/StopWordRemover.h \
+ /mnt/c/Users/suman/Desktop/Crawler/include/../include/../../DS_Library/include/hashMap.h \
+ /mnt/c/Users/suman/Desktop/Crawler/include/../include/InvertedIndex.h \
+ /mnt/c/Users/suman/Desktop/Crawler/include/../include/Posting.h \
+ /mnt/c/Users/suman/Desktop/Crawler/include/../include/IndexStorage.h \
+ /mnt/c/Users/suman/Desktop/Crawler/include/../include/PagePosting.h

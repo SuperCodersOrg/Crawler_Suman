@@ -1,5 +1,5 @@
 #include <iostream>
-#include "../include/Crawler.h"
+#include "../include/crawler.h"
 
 Crawler::Crawler(int maxDepth,int maxPages): maxDepth(maxDepth),maxPages(maxPages){}
 

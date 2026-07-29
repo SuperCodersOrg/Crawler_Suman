@@ -124,7 +124,7 @@ CMakeFiles/fetcher.dir/src/PageStorage.cpp.o: \
  /usr/include/c++/15/bits/ranges_util.h \
  /mnt/c/Users/suman/Desktop/Crawler/src/../include/Database.h \
  /usr/include/sqlite3.h \
- /mnt/c/Users/suman/Desktop/Crawler/src/../include/../../DS_Library/include/dynamicArray.h \
+ /mnt/c/Users/suman/Desktop/Crawler/src/../include/../../DS_Library/include/DynamicArray.h \
  /usr/include/c++/15/iostream /usr/include/c++/15/ostream \
  /usr/include/c++/15/bits/ostream.h /usr/include/c++/15/ios \
  /usr/include/c++/15/exception /usr/include/c++/15/bits/exception_ptr.h \
@@ -199,6 +199,7 @@ CMakeFiles/fetcher.dir/src/PageStorage.cpp.o: \
  /usr/include/c++/15/bits/quoted_string.h /usr/include/c++/15/sstream \
  /usr/include/c++/15/bits/sstream.tcc \
  /mnt/c/Users/suman/Desktop/Crawler/src/../include/../../DS_Library/include/../src/../include/hashMap.h \
+ /mnt/c/Users/suman/Desktop/Crawler/src/../include/PostingRecord.h \
  /mnt/c/Users/suman/Desktop/Crawler/src/../include/frontier.h \
  /mnt/c/Users/suman/Desktop/Crawler/src/../include/SeenStore.h \
  /mnt/c/Users/suman/Desktop/Crawler/src/../include/../../DS_Library/include/hashmap.h \

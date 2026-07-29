@@ -11,11 +11,13 @@ CMakeFiles/testFetcher.dir/main.cpp.o
  /mnt/c/Users/suman/Desktop/DS_Library/src/hashMap.cpp
  /mnt/c/Users/suman/Desktop/DS_Library/src/linkedList.cpp
  /mnt/c/Users/suman/Desktop/DS_Library/src/queue.cpp
+ /mnt/c/Users/suman/Desktop/DS_Library/include/DynamicArray.h
  /mnt/c/Users/suman/Desktop/DS_Library/include/HashFunction.h
  /mnt/c/Users/suman/Desktop/DS_Library/include/HashMap.h
  /mnt/c/Users/suman/Desktop/DS_Library/include/LinkedList.h
  /mnt/c/Users/suman/Desktop/DS_Library/include/Queue.h
  /mnt/c/Users/suman/Desktop/DS_Library/include/dynamicArray.h
+ /mnt/c/Users/suman/Desktop/DS_Library/include/hashMap.h
  /mnt/c/Users/suman/Desktop/DS_Library/include/hashmap.h
  /mnt/c/Users/suman/Desktop/DS_Library/include/linkedList.h
  /mnt/c/Users/suman/Desktop/Crawler/include/Crawler.h
@@ -23,9 +25,18 @@ CMakeFiles/testFetcher.dir/main.cpp.o
  /mnt/c/Users/suman/Desktop/Crawler/include/FetchResult.h
  /mnt/c/Users/suman/Desktop/Crawler/include/Fetcher.h
  /mnt/c/Users/suman/Desktop/Crawler/include/Frontier.h
+ /mnt/c/Users/suman/Desktop/Crawler/include/HTMLParser.h
+ /mnt/c/Users/suman/Desktop/Crawler/include/IndexStorage.h
+ /mnt/c/Users/suman/Desktop/Crawler/include/Indexer.h
+ /mnt/c/Users/suman/Desktop/Crawler/include/InvertedIndex.h
  /mnt/c/Users/suman/Desktop/Crawler/include/LinkExtractor.h
+ /mnt/c/Users/suman/Desktop/Crawler/include/PagePosting.h
  /mnt/c/Users/suman/Desktop/Crawler/include/PageStorage.h
+ /mnt/c/Users/suman/Desktop/Crawler/include/Posting.h
+ /mnt/c/Users/suman/Desktop/Crawler/include/PostingRecord.h
  /mnt/c/Users/suman/Desktop/Crawler/include/SeenStore.h
+ /mnt/c/Users/suman/Desktop/Crawler/include/StopWordRemover.h
+ /mnt/c/Users/suman/Desktop/Crawler/include/Tokenizer.h
  /mnt/c/Users/suman/Desktop/Crawler/include/URLNormalizer.h
  /mnt/c/Users/suman/Desktop/Crawler/include/frontier.h
  /usr/include/alloca.h

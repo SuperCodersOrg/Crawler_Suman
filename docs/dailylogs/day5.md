@@ -1,4 +1,4 @@
-# Daily Design Journal · day_5_journal.md
+# Daily Design Journal
 
 **Date:** July 23, 2026
 

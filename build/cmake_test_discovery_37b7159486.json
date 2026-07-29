@@ -1,367 +1,250 @@
 {
-  "tests": 63,
+  "tests": 42,
   "name": "AllTests",
   "testsuites": [
     {
-      "name": "URLNormalizerTest",
-      "tests": 7,
+      "name": "HTMLParserTest",
+      "tests": 10,
       "testsuite": [
         {
-          "name": "NormalizeStandardURLs",
-          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/URLNormalizerTest.cpp",
-          "line": 18
+          "name": "EmptyHTML",
+          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/HTMLParserTest.cpp",
+          "line": 12
         },
         {
-          "name": "NormalizeRemovesUnnecessaryComponents",
-          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/URLNormalizerTest.cpp",
-          "line": 52
+          "name": "NoBodyTag",
+          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/HTMLParserTest.cpp",
+          "line": 25
         },
         {
-          "name": "RejectInvalidStandaloneURLs",
-          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/URLNormalizerTest.cpp",
-          "line": 72
+          "name": "ExtractSimpleText",
+          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/HTMLParserTest.cpp",
+          "line": 44
         },
         {
-          "name": "NormalizeRelativeURLs",
-          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/URLNormalizerTest.cpp",
-          "line": 115
+          "name": "ExtractTextFromNestedTags",
+          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/HTMLParserTest.cpp",
+          "line": 66
         },
         {
-          "name": "NormalizeAbsoluteURLWithBase",
-          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/URLNormalizerTest.cpp",
-          "line": 148
-        },
-        {
-          "name": "NormalizeComplexRelativeURL",
-          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/URLNormalizerTest.cpp",
-          "line": 160
-        },
-        {
-          "name": "RejectInvalidRelativeURLs",
-          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/URLNormalizerTest.cpp",
-          "line": 172
-        }
-      ]
-    },
-    {
-      "name": "LinkExtractorTest",
-      "tests": 9,
-      "testsuite": [
-        {
-          "name": "EmptyHTMLReturnsNoLinks",
-          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/LinkExtractorTest.cpp",
-          "line": 16
-        },
-        {
-          "name": "HTMLWithoutAnchorReturnsNoLinks",
-          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/LinkExtractorTest.cpp",
-          "line": 27
-        },
-        {
-          "name": "ExtractDoubleQuotedHref",
-          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/LinkExtractorTest.cpp",
-          "line": 43
-        },
-        {
-          "name": "ExtractDifferentHrefFormats",
-          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/LinkExtractorTest.cpp",
-          "line": 62
-        },
-        {
-          "name": "ExtractMultipleLinks",
-          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/LinkExtractorTest.cpp",
+          "name": "IgnoreHiddenContent",
+          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/HTMLParserTest.cpp",
           "line": 87
         },
         {
-          "name": "HandlesUppercaseAnchorAndHref",
-          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/LinkExtractorTest.cpp",
-          "line": 108
+          "name": "BodyAttributesAndCaseInsensitive",
+          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/HTMLParserTest.cpp",
+          "line": 112
         },
         {
-          "name": "IgnoresNonAnchorAndInvalidHref",
-          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/LinkExtractorTest.cpp",
-          "line": 127
+          "name": "TrimWhitespace",
+          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/HTMLParserTest.cpp",
+          "line": 132
         },
         {
-          "name": "HandlesWhitespaceAroundEquals",
-          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/LinkExtractorTest.cpp",
-          "line": 151
+          "name": "IgnoreWhitespaceOnlyText",
+          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/HTMLParserTest.cpp",
+          "line": 152
         },
         {
-          "name": "IgnoresEmptyHref",
-          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/LinkExtractorTest.cpp",
-          "line": 172
+          "name": "IgnoreContentOutsideBody",
+          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/HTMLParserTest.cpp",
+          "line": 168
+        },
+        {
+          "name": "ComplexHTML",
+          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/HTMLParserTest.cpp",
+          "line": 187
         }
       ]
     },
     {
-      "name": "FetcherTest",
-      "tests": 6,
-      "testsuite": [
-        {
-          "name": "FetchValidPage",
-          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/FetcherTest.cpp",
-          "line": 11
-        },
-        {
-          "name": "FetchHTTPSPage",
-          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/FetcherTest.cpp",
-          "line": 23
-        },
-        {
-          "name": "InvalidDomain",
-          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/FetcherTest.cpp",
-          "line": 34
-        },
-        {
-          "name": "MalformedURL",
-          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/FetcherTest.cpp",
-          "line": 43
-        },
-        {
-          "name": "EmptyURL",
-          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/FetcherTest.cpp",
-          "line": 52
-        },
-        {
-          "name": "MultipleSequentialRequests",
-          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/FetcherTest.cpp",
-          "line": 61
-        }
-      ]
-    },
-    {
-      "name": "URLDepthTest",
-      "tests": 2,
-      "testsuite": [
-        {
-          "name": "StoresURLAndDepth",
-          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/FrontierTest.cpp",
-          "line": 10
-        },
-        {
-          "name": "EqualityChecksOnlyURL",
-          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/FrontierTest.cpp",
-          "line": 29
-        }
-      ]
-    },
-    {
-      "name": "FrontierTest",
+      "name": "TokenizerTest",
       "tests": 8,
       "testsuite": [
         {
-          "name": "NewFrontierIsEmpty",
-          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/FrontierTest.cpp",
-          "line": 61
+          "name": "EmptyInput",
+          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/TokenizerTest.cpp",
+          "line": 12
         },
         {
-          "name": "PushAndFrontReturnsCorrectURLDepth",
-          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/FrontierTest.cpp",
-          "line": 75
+          "name": "TokenizeSimpleSentence",
+          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/TokenizerTest.cpp",
+          "line": 27
         },
         {
-          "name": "PopMaintainsFIFOOrder",
-          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/FrontierTest.cpp",
-          "line": 110
+          "name": "NormalizeWords",
+          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/TokenizerTest.cpp",
+          "line": 46
         },
         {
-          "name": "DuplicateURLIsIgnored",
-          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/FrontierTest.cpp",
-          "line": 150
+          "name": "IgnoreNumbers",
+          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/TokenizerTest.cpp",
+          "line": 66
         },
         {
-          "name": "ContainsTracksPendingURLs",
-          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/FrontierTest.cpp",
-          "line": 181
+          "name": "IgnorePunctuationOnlyTokens",
+          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/TokenizerTest.cpp",
+          "line": 85
         },
         {
-          "name": "MultipleURLsFollowFIFO",
-          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/FrontierTest.cpp",
-          "line": 216
+          "name": "MultipleTextBlocks",
+          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/TokenizerTest.cpp",
+          "line": 103
         },
         {
-          "name": "ReinsertAfterPopWorks",
-          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/FrontierTest.cpp",
-          "line": 262
+          "name": "MixedInput",
+          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/TokenizerTest.cpp",
+          "line": 125
         },
         {
-          "name": "SizeUpdatesCorrectly",
-          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/FrontierTest.cpp",
-          "line": 293
+          "name": "HyphenAndApostropheWords",
+          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/TokenizerTest.cpp",
+          "line": 146
         }
       ]
     },
     {
-      "name": "SeenStoreTest",
-      "tests": 5,
+      "name": "StopWordRemoverTest",
+      "tests": 6,
       "testsuite": [
         {
-          "name": "NewSeenStoreIsEmpty",
-          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/SeenStoreTest.cpp",
-          "line": 19
+          "name": "EmptyInput",
+          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/StopWordRemoverTest.cpp",
+          "line": 12
         },
         {
-          "name": "InsertURLAndCheckExistence",
-          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/SeenStoreTest.cpp",
-          "line": 43
+          "name": "RemoveStopWords",
+          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/StopWordRemoverTest.cpp",
+          "line": 27
         },
         {
-          "name": "DuplicateURLDoesNotCreateMultipleEntries",
-          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/SeenStoreTest.cpp",
-          "line": 65
+          "name": "KeepNonStopWords",
+          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/StopWordRemoverTest.cpp",
+          "line": 51
         },
         {
-          "name": "StoresMultipleCompletedURLs",
-          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/SeenStoreTest.cpp",
-          "line": 93
+          "name": "IgnoreEmptyStrings",
+          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/StopWordRemoverTest.cpp",
+          "line": 73
         },
         {
-          "name": "ClearRemovesAllURLs",
-          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/SeenStoreTest.cpp",
-          "line": 136
+          "name": "MixedTokens",
+          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/StopWordRemoverTest.cpp",
+          "line": 95
+        },
+        {
+          "name": "AllStopWords",
+          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/StopWordRemoverTest.cpp",
+          "line": 120
         }
       ]
     },
     {
-      "name": "PageStorageTest",
-      "tests": 11,
+      "name": "InvertedIndexTest",
+      "tests": 6,
       "testsuite": [
         {
-          "name": "NewStorageIsEmpty",
-          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/PageStorageTest.cpp",
-          "line": 39
+          "name": "EmptyIndex",
+          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/InvertedIndexTest.cpp",
+          "line": 8
         },
         {
-          "name": "AddPendingURLSuccessfully",
-          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/PageStorageTest.cpp",
-          "line": 60
+          "name": "InsertNewWord",
+          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/InvertedIndexTest.cpp",
+          "line": 20
         },
         {
-          "name": "StoreSinglePage",
-          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/PageStorageTest.cpp",
-          "line": 77
+          "name": "InsertSameWordDifferentPages",
+          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/InvertedIndexTest.cpp",
+          "line": 40
         },
         {
-          "name": "RetrieveStoredHTML",
-          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/PageStorageTest.cpp",
-          "line": 117
+          "name": "UpdateExistingPosting",
+          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/InvertedIndexTest.cpp",
+          "line": 64
         },
         {
-          "name": "MissingPageReturnsEmpty",
-          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/PageStorageTest.cpp",
-          "line": 153
+          "name": "MultipleWords",
+          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/InvertedIndexTest.cpp",
+          "line": 83
         },
         {
-          "name": "UnknownURLHasNoStoredPage",
-          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/PageStorageTest.cpp",
-          "line": 165
-        },
-        {
-          "name": "StoreMultiplePages",
-          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/PageStorageTest.cpp",
-          "line": 181
-        },
-        {
-          "name": "EmptyHTMLCanBeStored",
-          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/PageStorageTest.cpp",
-          "line": 245
-        },
-        {
-          "name": "StorePageCreatesPersistentFile",
-          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/PageStorageTest.cpp",
-          "line": 281
-        },
-        {
-          "name": "RecoverCrawlerState",
-          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/PageStorageTest.cpp",
-          "line": 318
-        },
-        {
-          "name": "GetURLByIDReturnsCorrectURL",
-          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/PageStorageTest.cpp",
-          "line": 391
+          "name": "ClearIndex",
+          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/InvertedIndexTest.cpp",
+          "line": 102
         }
       ]
     },
     {
-      "name": "CrawlerTest",
-      "tests": 15,
+      "name": "IndexStorageTest",
+      "tests": 6,
       "testsuite": [
         {
-          "name": "EmptyURLDoesNothing",
-          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/CrawlerTest.cpp",
-          "line": 32
+          "name": "InitializeDatabase",
+          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/IndexStorageTest.cpp",
+          "line": 12
         },
         {
-          "name": "WhiteSpaceURLDoesNothing",
-          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/CrawlerTest.cpp",
-          "line": 42
+          "name": "SaveAndLoadSinglePage",
+          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/IndexStorageTest.cpp",
+          "line": 25
         },
         {
-          "name": "InvalidSchemeDoesNotCrash",
-          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/CrawlerTest.cpp",
-          "line": 52
+          "name": "SaveMultiplePages",
+          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/IndexStorageTest.cpp",
+          "line": 53
         },
         {
-          "name": "CrawlGoogle",
-          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/CrawlerTest.cpp",
-          "line": 67
-        },
-        {
-          "name": "CrawlExampleDotCom",
-          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/CrawlerTest.cpp",
-          "line": 77
-        },
-        {
-          "name": "CrawlWikipedia",
-          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/CrawlerTest.cpp",
+          "name": "LoadEmptyDatabase",
+          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/IndexStorageTest.cpp",
           "line": 87
         },
         {
-          "name": "NonExistingDomainDoesNotCrash",
-          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/CrawlerTest.cpp",
-          "line": 102
+          "name": "ClearStorage",
+          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/IndexStorageTest.cpp",
+          "line": 106
         },
         {
-          "name": "CrawlingSameSeedTwiceDoesNotCrash",
-          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/CrawlerTest.cpp",
-          "line": 117
+          "name": "PreserveFrequency",
+          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/IndexStorageTest.cpp",
+          "line": 130
+        }
+      ]
+    },
+    {
+      "name": "IndexerTest",
+      "tests": 6,
+      "testsuite": [
+        {
+          "name": "Constructor",
+          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/IndexerTest.cpp",
+          "line": 10
         },
         {
-          "name": "URLContainingSpacesDoesNotCrash",
-          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/CrawlerTest.cpp",
-          "line": 134
+          "name": "SearchBeforeBuildingIndex",
+          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/IndexerTest.cpp",
+          "line": 21
         },
         {
-          "name": "MaxPageLimitOne",
-          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/CrawlerTest.cpp",
-          "line": 149
+          "name": "BuildIndex",
+          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/IndexerTest.cpp",
+          "line": 34
         },
         {
-          "name": "MaxPageLimitFive",
-          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/CrawlerTest.cpp",
-          "line": 159
+          "name": "SearchExistingWord",
+          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/IndexerTest.cpp",
+          "line": 47
         },
         {
-          "name": "DepthZero",
-          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/CrawlerTest.cpp",
-          "line": 174
+          "name": "SearchMissingWord",
+          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/IndexerTest.cpp",
+          "line": 66
         },
         {
-          "name": "DepthTwo",
-          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/CrawlerTest.cpp",
-          "line": 184
-        },
-        {
-          "name": "RedirectURL",
-          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/CrawlerTest.cpp",
-          "line": 199
-        },
-        {
-          "name": "ResumeAfterRestart",
-          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/CrawlerTest.cpp",
-          "line": 214
+          "name": "RebuildIndex",
+          "file": "\/mnt\/c\/Users\/suman\/Desktop\/Crawler\/testing\/IndexerTest.cpp",
+          "line": 82
         }
       ]
     }

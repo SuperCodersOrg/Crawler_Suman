@@ -348,6 +348,8 @@ CMakeFiles/URLNormalizerTesting.dir/testing/CrawlerTest.cpp.o: \
  /mnt/c/Users/suman/Desktop/Crawler/testing/../include/PageStorage.h \
  /mnt/c/Users/suman/Desktop/Crawler/testing/../include/Database.h \
  /usr/include/sqlite3.h \
+ /mnt/c/Users/suman/Desktop/Crawler/testing/../include/../../DS_Library/include/DynamicArray.h \
+ /mnt/c/Users/suman/Desktop/Crawler/testing/../include/PostingRecord.h \
  /mnt/c/Users/suman/Desktop/Crawler/testing/../include/frontier.h \
  /mnt/c/Users/suman/Desktop/Crawler/testing/../include/SeenStore.h \
  /mnt/c/Users/suman/Desktop/Crawler/testing/../include/../../DS_Library/include/hashmap.h \

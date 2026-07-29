@@ -91,12 +91,12 @@ clean: CMakeFiles/URLNormalizerTesting.dir/clean
 CMakeFiles/fetcher.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fetcher.dir/build.make CMakeFiles/fetcher.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fetcher.dir/build.make CMakeFiles/fetcher.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/mnt/c/Users/suman/Desktop/Crawler/build/CMakeFiles --progress-num=9,10,11,12,13,14,15,16,17,18 "Built target fetcher"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/mnt/c/Users/suman/Desktop/Crawler/build/CMakeFiles --progress-num=8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26 "Built target fetcher"
 .PHONY : CMakeFiles/fetcher.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/fetcher.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/suman/Desktop/Crawler/build/CMakeFiles 10
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/suman/Desktop/Crawler/build/CMakeFiles 19
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/fetcher.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/suman/Desktop/Crawler/build/CMakeFiles 0
 .PHONY : CMakeFiles/fetcher.dir/rule
@@ -108,7 +108,7 @@ fetcher: CMakeFiles/fetcher.dir/rule
 # codegen rule for target.
 CMakeFiles/fetcher.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fetcher.dir/build.make CMakeFiles/fetcher.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/mnt/c/Users/suman/Desktop/Crawler/build/CMakeFiles --progress-num=9,10,11,12,13,14,15,16,17,18 "Finished codegen for target fetcher"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/mnt/c/Users/suman/Desktop/Crawler/build/CMakeFiles --progress-num=8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26 "Finished codegen for target fetcher"
 .PHONY : CMakeFiles/fetcher.dir/codegen
 
 # clean rule for target.
@@ -123,12 +123,12 @@ CMakeFiles/fetcher.dir/clean:
 CMakeFiles/testFetcher.dir/all: CMakeFiles/fetcher.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/testFetcher.dir/build.make CMakeFiles/testFetcher.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/testFetcher.dir/build.make CMakeFiles/testFetcher.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/mnt/c/Users/suman/Desktop/Crawler/build/CMakeFiles --progress-num=19,20 "Built target testFetcher"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/mnt/c/Users/suman/Desktop/Crawler/build/CMakeFiles --progress-num=27,28 "Built target testFetcher"
 .PHONY : CMakeFiles/testFetcher.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/testFetcher.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/suman/Desktop/Crawler/build/CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/suman/Desktop/Crawler/build/CMakeFiles 21
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/testFetcher.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/suman/Desktop/Crawler/build/CMakeFiles 0
 .PHONY : CMakeFiles/testFetcher.dir/rule
@@ -140,7 +140,7 @@ testFetcher: CMakeFiles/testFetcher.dir/rule
 # codegen rule for target.
 CMakeFiles/testFetcher.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/testFetcher.dir/build.make CMakeFiles/testFetcher.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/mnt/c/Users/suman/Desktop/Crawler/build/CMakeFiles --progress-num=19,20 "Finished codegen for target testFetcher"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/mnt/c/Users/suman/Desktop/Crawler/build/CMakeFiles --progress-num=27,28 "Finished codegen for target testFetcher"
 .PHONY : CMakeFiles/testFetcher.dir/codegen
 
 # clean rule for target.
@@ -155,12 +155,12 @@ CMakeFiles/testFetcher.dir/clean:
 CMakeFiles/URLNormalizerTesting.dir/all: CMakeFiles/fetcher.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/URLNormalizerTesting.dir/build.make CMakeFiles/URLNormalizerTesting.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/URLNormalizerTesting.dir/build.make CMakeFiles/URLNormalizerTesting.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/mnt/c/Users/suman/Desktop/Crawler/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target URLNormalizerTesting"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/mnt/c/Users/suman/Desktop/Crawler/build/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target URLNormalizerTesting"
 .PHONY : CMakeFiles/URLNormalizerTesting.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/URLNormalizerTesting.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/suman/Desktop/Crawler/build/CMakeFiles 18
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/suman/Desktop/Crawler/build/CMakeFiles 26
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/URLNormalizerTesting.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/suman/Desktop/Crawler/build/CMakeFiles 0
 .PHONY : CMakeFiles/URLNormalizerTesting.dir/rule
@@ -172,7 +172,7 @@ URLNormalizerTesting: CMakeFiles/URLNormalizerTesting.dir/rule
 # codegen rule for target.
 CMakeFiles/URLNormalizerTesting.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/URLNormalizerTesting.dir/build.make CMakeFiles/URLNormalizerTesting.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/mnt/c/Users/suman/Desktop/Crawler/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Finished codegen for target URLNormalizerTesting"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/mnt/c/Users/suman/Desktop/Crawler/build/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Finished codegen for target URLNormalizerTesting"
 .PHONY : CMakeFiles/URLNormalizerTesting.dir/codegen
 
 # clean rule for target.

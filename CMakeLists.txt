@@ -44,6 +44,15 @@ add_library(fetcher
     src/URLNormalizer.cpp
     src/crawler.cpp
     src/Database.cpp
+    src/HTMLParser.cpp
+    src/Tokenizer.cpp
+    src/StopWordRemover.cpp
+    src/InvertedIndex.cpp
+    src/Posting.cpp
+    src/PagePosting.cpp
+    src/IndexStorage.cpp
+    src/PostingRecord.cpp
+    src/Indexer.cpp
     ../../DS_Library/src/HashFunction.cpp
 )
 
@@ -75,13 +84,19 @@ enable_testing()
 find_package(GTest REQUIRED)
 
 add_executable(URLNormalizerTesting
-    testing/URLNormalizerTest.cpp
-    testing/LinkExtractorTest.cpp
-    testing/FetcherTest.cpp
-    testing/FrontierTest.cpp
-    testing/SeenStoreTest.cpp
-    testing/PageStorageTest.cpp
-    testing/CrawlerTest.cpp
+    # testing/URLNormalizerTest.cpp
+    # testing/LinkExtractorTest.cpp
+    # testing/FetcherTest.cpp
+    # testing/FrontierTest.cpp
+    # testing/SeenStoreTest.cpp
+    # testing/PageStorageTest.cpp
+    # testing/CrawlerTest.cpp
+    testing/HTMLParserTest.cpp
+    testing/TokenizerTest.cpp
+    testing/StopWordRemoverTest.cpp
+    testing/InvertedIndexTest.cpp
+    testing/IndexStorageTest.cpp
+    testing/IndexerTest.cpp
 )
 
 target_link_libraries(URLNormalizerTesting

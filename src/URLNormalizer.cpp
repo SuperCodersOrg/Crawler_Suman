@@ -137,8 +137,18 @@ string URLNormalizer::getHost(const string& url){
     int hostEnd =url.find('/', hostStart);
     if(hostEnd == string::npos){
         return url.substr(hostStart);
+        // string temp=url.substr(hostStart);
+        // if(temp=="studyadda.onrender.com"){
+        //     return temp;
+        // }
+        // else return "";
     }
     return url.substr(hostStart,hostEnd - hostStart);
+    // string temp=url.substr(hostStart,hostEnd - hostStart);
+    // if(temp=="studyadda.onrender.com"){
+    //     return temp;
+    // }
+    // else return "";
 }
 
 
@@ -330,6 +340,13 @@ string URLNormalizer::normalize(const string& baseURL,const string& extractedURL
 
     if(isAbsoluteURL(url)){
         url = toLowerSchemeAndHost(url);
+
+        // string temp=getHost(url);
+        // if(temp.empty()){
+        //     return "";
+        // }
+
+
         url = resolveDotSegments(url);
         url = removeTrailingSlash(url);
         return url;
@@ -372,6 +389,13 @@ string URLNormalizer::normalize(const string& extractedURL)
     url = ensureScheme(url);
 
     url = toLowerSchemeAndHost(url);
+
+
+    // string temp=getHost(url);
+    // if(temp.empty()){
+    //     return "";
+    // }
+    
     url = resolveDotSegments(url);
     url = removeTrailingSlash(url);
 

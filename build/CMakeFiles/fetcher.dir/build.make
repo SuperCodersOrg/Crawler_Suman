@@ -184,10 +184,136 @@ CMakeFiles/fetcher.dir/src/Database.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fetcher.dir/src/Database.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/suman/Desktop/Crawler/src/Database.cpp -o CMakeFiles/fetcher.dir/src/Database.cpp.s
 
+CMakeFiles/fetcher.dir/src/HTMLParser.cpp.o: CMakeFiles/fetcher.dir/flags.make
+CMakeFiles/fetcher.dir/src/HTMLParser.cpp.o: /mnt/c/Users/suman/Desktop/Crawler/src/HTMLParser.cpp
+CMakeFiles/fetcher.dir/src/HTMLParser.cpp.o: CMakeFiles/fetcher.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/suman/Desktop/Crawler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/fetcher.dir/src/HTMLParser.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fetcher.dir/src/HTMLParser.cpp.o -MF CMakeFiles/fetcher.dir/src/HTMLParser.cpp.o.d -o CMakeFiles/fetcher.dir/src/HTMLParser.cpp.o -c /mnt/c/Users/suman/Desktop/Crawler/src/HTMLParser.cpp
+
+CMakeFiles/fetcher.dir/src/HTMLParser.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fetcher.dir/src/HTMLParser.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/suman/Desktop/Crawler/src/HTMLParser.cpp > CMakeFiles/fetcher.dir/src/HTMLParser.cpp.i
+
+CMakeFiles/fetcher.dir/src/HTMLParser.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fetcher.dir/src/HTMLParser.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/suman/Desktop/Crawler/src/HTMLParser.cpp -o CMakeFiles/fetcher.dir/src/HTMLParser.cpp.s
+
+CMakeFiles/fetcher.dir/src/Tokenizer.cpp.o: CMakeFiles/fetcher.dir/flags.make
+CMakeFiles/fetcher.dir/src/Tokenizer.cpp.o: /mnt/c/Users/suman/Desktop/Crawler/src/Tokenizer.cpp
+CMakeFiles/fetcher.dir/src/Tokenizer.cpp.o: CMakeFiles/fetcher.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/suman/Desktop/Crawler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/fetcher.dir/src/Tokenizer.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fetcher.dir/src/Tokenizer.cpp.o -MF CMakeFiles/fetcher.dir/src/Tokenizer.cpp.o.d -o CMakeFiles/fetcher.dir/src/Tokenizer.cpp.o -c /mnt/c/Users/suman/Desktop/Crawler/src/Tokenizer.cpp
+
+CMakeFiles/fetcher.dir/src/Tokenizer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fetcher.dir/src/Tokenizer.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/suman/Desktop/Crawler/src/Tokenizer.cpp > CMakeFiles/fetcher.dir/src/Tokenizer.cpp.i
+
+CMakeFiles/fetcher.dir/src/Tokenizer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fetcher.dir/src/Tokenizer.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/suman/Desktop/Crawler/src/Tokenizer.cpp -o CMakeFiles/fetcher.dir/src/Tokenizer.cpp.s
+
+CMakeFiles/fetcher.dir/src/StopWordRemover.cpp.o: CMakeFiles/fetcher.dir/flags.make
+CMakeFiles/fetcher.dir/src/StopWordRemover.cpp.o: /mnt/c/Users/suman/Desktop/Crawler/src/StopWordRemover.cpp
+CMakeFiles/fetcher.dir/src/StopWordRemover.cpp.o: CMakeFiles/fetcher.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/suman/Desktop/Crawler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/fetcher.dir/src/StopWordRemover.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fetcher.dir/src/StopWordRemover.cpp.o -MF CMakeFiles/fetcher.dir/src/StopWordRemover.cpp.o.d -o CMakeFiles/fetcher.dir/src/StopWordRemover.cpp.o -c /mnt/c/Users/suman/Desktop/Crawler/src/StopWordRemover.cpp
+
+CMakeFiles/fetcher.dir/src/StopWordRemover.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fetcher.dir/src/StopWordRemover.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/suman/Desktop/Crawler/src/StopWordRemover.cpp > CMakeFiles/fetcher.dir/src/StopWordRemover.cpp.i
+
+CMakeFiles/fetcher.dir/src/StopWordRemover.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fetcher.dir/src/StopWordRemover.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/suman/Desktop/Crawler/src/StopWordRemover.cpp -o CMakeFiles/fetcher.dir/src/StopWordRemover.cpp.s
+
+CMakeFiles/fetcher.dir/src/InvertedIndex.cpp.o: CMakeFiles/fetcher.dir/flags.make
+CMakeFiles/fetcher.dir/src/InvertedIndex.cpp.o: /mnt/c/Users/suman/Desktop/Crawler/src/InvertedIndex.cpp
+CMakeFiles/fetcher.dir/src/InvertedIndex.cpp.o: CMakeFiles/fetcher.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/suman/Desktop/Crawler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/fetcher.dir/src/InvertedIndex.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fetcher.dir/src/InvertedIndex.cpp.o -MF CMakeFiles/fetcher.dir/src/InvertedIndex.cpp.o.d -o CMakeFiles/fetcher.dir/src/InvertedIndex.cpp.o -c /mnt/c/Users/suman/Desktop/Crawler/src/InvertedIndex.cpp
+
+CMakeFiles/fetcher.dir/src/InvertedIndex.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fetcher.dir/src/InvertedIndex.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/suman/Desktop/Crawler/src/InvertedIndex.cpp > CMakeFiles/fetcher.dir/src/InvertedIndex.cpp.i
+
+CMakeFiles/fetcher.dir/src/InvertedIndex.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fetcher.dir/src/InvertedIndex.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/suman/Desktop/Crawler/src/InvertedIndex.cpp -o CMakeFiles/fetcher.dir/src/InvertedIndex.cpp.s
+
+CMakeFiles/fetcher.dir/src/Posting.cpp.o: CMakeFiles/fetcher.dir/flags.make
+CMakeFiles/fetcher.dir/src/Posting.cpp.o: /mnt/c/Users/suman/Desktop/Crawler/src/Posting.cpp
+CMakeFiles/fetcher.dir/src/Posting.cpp.o: CMakeFiles/fetcher.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/suman/Desktop/Crawler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/fetcher.dir/src/Posting.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fetcher.dir/src/Posting.cpp.o -MF CMakeFiles/fetcher.dir/src/Posting.cpp.o.d -o CMakeFiles/fetcher.dir/src/Posting.cpp.o -c /mnt/c/Users/suman/Desktop/Crawler/src/Posting.cpp
+
+CMakeFiles/fetcher.dir/src/Posting.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fetcher.dir/src/Posting.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/suman/Desktop/Crawler/src/Posting.cpp > CMakeFiles/fetcher.dir/src/Posting.cpp.i
+
+CMakeFiles/fetcher.dir/src/Posting.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fetcher.dir/src/Posting.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/suman/Desktop/Crawler/src/Posting.cpp -o CMakeFiles/fetcher.dir/src/Posting.cpp.s
+
+CMakeFiles/fetcher.dir/src/PagePosting.cpp.o: CMakeFiles/fetcher.dir/flags.make
+CMakeFiles/fetcher.dir/src/PagePosting.cpp.o: /mnt/c/Users/suman/Desktop/Crawler/src/PagePosting.cpp
+CMakeFiles/fetcher.dir/src/PagePosting.cpp.o: CMakeFiles/fetcher.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/suman/Desktop/Crawler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/fetcher.dir/src/PagePosting.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fetcher.dir/src/PagePosting.cpp.o -MF CMakeFiles/fetcher.dir/src/PagePosting.cpp.o.d -o CMakeFiles/fetcher.dir/src/PagePosting.cpp.o -c /mnt/c/Users/suman/Desktop/Crawler/src/PagePosting.cpp
+
+CMakeFiles/fetcher.dir/src/PagePosting.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fetcher.dir/src/PagePosting.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/suman/Desktop/Crawler/src/PagePosting.cpp > CMakeFiles/fetcher.dir/src/PagePosting.cpp.i
+
+CMakeFiles/fetcher.dir/src/PagePosting.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fetcher.dir/src/PagePosting.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/suman/Desktop/Crawler/src/PagePosting.cpp -o CMakeFiles/fetcher.dir/src/PagePosting.cpp.s
+
+CMakeFiles/fetcher.dir/src/IndexStorage.cpp.o: CMakeFiles/fetcher.dir/flags.make
+CMakeFiles/fetcher.dir/src/IndexStorage.cpp.o: /mnt/c/Users/suman/Desktop/Crawler/src/IndexStorage.cpp
+CMakeFiles/fetcher.dir/src/IndexStorage.cpp.o: CMakeFiles/fetcher.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/suman/Desktop/Crawler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/fetcher.dir/src/IndexStorage.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fetcher.dir/src/IndexStorage.cpp.o -MF CMakeFiles/fetcher.dir/src/IndexStorage.cpp.o.d -o CMakeFiles/fetcher.dir/src/IndexStorage.cpp.o -c /mnt/c/Users/suman/Desktop/Crawler/src/IndexStorage.cpp
+
+CMakeFiles/fetcher.dir/src/IndexStorage.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fetcher.dir/src/IndexStorage.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/suman/Desktop/Crawler/src/IndexStorage.cpp > CMakeFiles/fetcher.dir/src/IndexStorage.cpp.i
+
+CMakeFiles/fetcher.dir/src/IndexStorage.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fetcher.dir/src/IndexStorage.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/suman/Desktop/Crawler/src/IndexStorage.cpp -o CMakeFiles/fetcher.dir/src/IndexStorage.cpp.s
+
+CMakeFiles/fetcher.dir/src/PostingRecord.cpp.o: CMakeFiles/fetcher.dir/flags.make
+CMakeFiles/fetcher.dir/src/PostingRecord.cpp.o: /mnt/c/Users/suman/Desktop/Crawler/src/PostingRecord.cpp
+CMakeFiles/fetcher.dir/src/PostingRecord.cpp.o: CMakeFiles/fetcher.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/suman/Desktop/Crawler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/fetcher.dir/src/PostingRecord.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fetcher.dir/src/PostingRecord.cpp.o -MF CMakeFiles/fetcher.dir/src/PostingRecord.cpp.o.d -o CMakeFiles/fetcher.dir/src/PostingRecord.cpp.o -c /mnt/c/Users/suman/Desktop/Crawler/src/PostingRecord.cpp
+
+CMakeFiles/fetcher.dir/src/PostingRecord.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fetcher.dir/src/PostingRecord.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/suman/Desktop/Crawler/src/PostingRecord.cpp > CMakeFiles/fetcher.dir/src/PostingRecord.cpp.i
+
+CMakeFiles/fetcher.dir/src/PostingRecord.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fetcher.dir/src/PostingRecord.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/suman/Desktop/Crawler/src/PostingRecord.cpp -o CMakeFiles/fetcher.dir/src/PostingRecord.cpp.s
+
+CMakeFiles/fetcher.dir/src/Indexer.cpp.o: CMakeFiles/fetcher.dir/flags.make
+CMakeFiles/fetcher.dir/src/Indexer.cpp.o: /mnt/c/Users/suman/Desktop/Crawler/src/Indexer.cpp
+CMakeFiles/fetcher.dir/src/Indexer.cpp.o: CMakeFiles/fetcher.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/suman/Desktop/Crawler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/fetcher.dir/src/Indexer.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fetcher.dir/src/Indexer.cpp.o -MF CMakeFiles/fetcher.dir/src/Indexer.cpp.o.d -o CMakeFiles/fetcher.dir/src/Indexer.cpp.o -c /mnt/c/Users/suman/Desktop/Crawler/src/Indexer.cpp
+
+CMakeFiles/fetcher.dir/src/Indexer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fetcher.dir/src/Indexer.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/suman/Desktop/Crawler/src/Indexer.cpp > CMakeFiles/fetcher.dir/src/Indexer.cpp.i
+
+CMakeFiles/fetcher.dir/src/Indexer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fetcher.dir/src/Indexer.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/suman/Desktop/Crawler/src/Indexer.cpp -o CMakeFiles/fetcher.dir/src/Indexer.cpp.s
+
 CMakeFiles/fetcher.dir/mnt/c/Users/suman/Desktop/DS_Library/src/HashFunction.cpp.o: CMakeFiles/fetcher.dir/flags.make
 CMakeFiles/fetcher.dir/mnt/c/Users/suman/Desktop/DS_Library/src/HashFunction.cpp.o: /mnt/c/Users/suman/Desktop/DS_Library/src/HashFunction.cpp
 CMakeFiles/fetcher.dir/mnt/c/Users/suman/Desktop/DS_Library/src/HashFunction.cpp.o: CMakeFiles/fetcher.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/suman/Desktop/Crawler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/fetcher.dir/mnt/c/Users/suman/Desktop/DS_Library/src/HashFunction.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/suman/Desktop/Crawler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/fetcher.dir/mnt/c/Users/suman/Desktop/DS_Library/src/HashFunction.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fetcher.dir/mnt/c/Users/suman/Desktop/DS_Library/src/HashFunction.cpp.o -MF CMakeFiles/fetcher.dir/mnt/c/Users/suman/Desktop/DS_Library/src/HashFunction.cpp.o.d -o CMakeFiles/fetcher.dir/mnt/c/Users/suman/Desktop/DS_Library/src/HashFunction.cpp.o -c /mnt/c/Users/suman/Desktop/DS_Library/src/HashFunction.cpp
 
 CMakeFiles/fetcher.dir/mnt/c/Users/suman/Desktop/DS_Library/src/HashFunction.cpp.i: cmake_force
@@ -208,6 +334,15 @@ fetcher_OBJECTS = \
 "CMakeFiles/fetcher.dir/src/URLNormalizer.cpp.o" \
 "CMakeFiles/fetcher.dir/src/crawler.cpp.o" \
 "CMakeFiles/fetcher.dir/src/Database.cpp.o" \
+"CMakeFiles/fetcher.dir/src/HTMLParser.cpp.o" \
+"CMakeFiles/fetcher.dir/src/Tokenizer.cpp.o" \
+"CMakeFiles/fetcher.dir/src/StopWordRemover.cpp.o" \
+"CMakeFiles/fetcher.dir/src/InvertedIndex.cpp.o" \
+"CMakeFiles/fetcher.dir/src/Posting.cpp.o" \
+"CMakeFiles/fetcher.dir/src/PagePosting.cpp.o" \
+"CMakeFiles/fetcher.dir/src/IndexStorage.cpp.o" \
+"CMakeFiles/fetcher.dir/src/PostingRecord.cpp.o" \
+"CMakeFiles/fetcher.dir/src/Indexer.cpp.o" \
 "CMakeFiles/fetcher.dir/mnt/c/Users/suman/Desktop/DS_Library/src/HashFunction.cpp.o"
 
 # External object files for target fetcher
@@ -221,10 +356,19 @@ libfetcher.a: CMakeFiles/fetcher.dir/src/LinkExtractor.cpp.o
 libfetcher.a: CMakeFiles/fetcher.dir/src/URLNormalizer.cpp.o
 libfetcher.a: CMakeFiles/fetcher.dir/src/crawler.cpp.o
 libfetcher.a: CMakeFiles/fetcher.dir/src/Database.cpp.o
+libfetcher.a: CMakeFiles/fetcher.dir/src/HTMLParser.cpp.o
+libfetcher.a: CMakeFiles/fetcher.dir/src/Tokenizer.cpp.o
+libfetcher.a: CMakeFiles/fetcher.dir/src/StopWordRemover.cpp.o
+libfetcher.a: CMakeFiles/fetcher.dir/src/InvertedIndex.cpp.o
+libfetcher.a: CMakeFiles/fetcher.dir/src/Posting.cpp.o
+libfetcher.a: CMakeFiles/fetcher.dir/src/PagePosting.cpp.o
+libfetcher.a: CMakeFiles/fetcher.dir/src/IndexStorage.cpp.o
+libfetcher.a: CMakeFiles/fetcher.dir/src/PostingRecord.cpp.o
+libfetcher.a: CMakeFiles/fetcher.dir/src/Indexer.cpp.o
 libfetcher.a: CMakeFiles/fetcher.dir/mnt/c/Users/suman/Desktop/DS_Library/src/HashFunction.cpp.o
 libfetcher.a: CMakeFiles/fetcher.dir/build.make
 libfetcher.a: CMakeFiles/fetcher.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/mnt/c/Users/suman/Desktop/Crawler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX static library libfetcher.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/mnt/c/Users/suman/Desktop/Crawler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Linking CXX static library libfetcher.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/fetcher.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/fetcher.dir/link.txt --verbose=$(VERBOSE)
 

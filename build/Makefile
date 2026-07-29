@@ -285,6 +285,102 @@ src/Frontier.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fetcher.dir/build.make CMakeFiles/fetcher.dir/src/Frontier.cpp.s
 .PHONY : src/Frontier.cpp.s
 
+src/HTMLParser.o: src/HTMLParser.cpp.o
+.PHONY : src/HTMLParser.o
+
+# target to build an object file
+src/HTMLParser.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fetcher.dir/build.make CMakeFiles/fetcher.dir/src/HTMLParser.cpp.o
+.PHONY : src/HTMLParser.cpp.o
+
+src/HTMLParser.i: src/HTMLParser.cpp.i
+.PHONY : src/HTMLParser.i
+
+# target to preprocess a source file
+src/HTMLParser.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fetcher.dir/build.make CMakeFiles/fetcher.dir/src/HTMLParser.cpp.i
+.PHONY : src/HTMLParser.cpp.i
+
+src/HTMLParser.s: src/HTMLParser.cpp.s
+.PHONY : src/HTMLParser.s
+
+# target to generate assembly for a file
+src/HTMLParser.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fetcher.dir/build.make CMakeFiles/fetcher.dir/src/HTMLParser.cpp.s
+.PHONY : src/HTMLParser.cpp.s
+
+src/IndexStorage.o: src/IndexStorage.cpp.o
+.PHONY : src/IndexStorage.o
+
+# target to build an object file
+src/IndexStorage.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fetcher.dir/build.make CMakeFiles/fetcher.dir/src/IndexStorage.cpp.o
+.PHONY : src/IndexStorage.cpp.o
+
+src/IndexStorage.i: src/IndexStorage.cpp.i
+.PHONY : src/IndexStorage.i
+
+# target to preprocess a source file
+src/IndexStorage.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fetcher.dir/build.make CMakeFiles/fetcher.dir/src/IndexStorage.cpp.i
+.PHONY : src/IndexStorage.cpp.i
+
+src/IndexStorage.s: src/IndexStorage.cpp.s
+.PHONY : src/IndexStorage.s
+
+# target to generate assembly for a file
+src/IndexStorage.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fetcher.dir/build.make CMakeFiles/fetcher.dir/src/IndexStorage.cpp.s
+.PHONY : src/IndexStorage.cpp.s
+
+src/Indexer.o: src/Indexer.cpp.o
+.PHONY : src/Indexer.o
+
+# target to build an object file
+src/Indexer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fetcher.dir/build.make CMakeFiles/fetcher.dir/src/Indexer.cpp.o
+.PHONY : src/Indexer.cpp.o
+
+src/Indexer.i: src/Indexer.cpp.i
+.PHONY : src/Indexer.i
+
+# target to preprocess a source file
+src/Indexer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fetcher.dir/build.make CMakeFiles/fetcher.dir/src/Indexer.cpp.i
+.PHONY : src/Indexer.cpp.i
+
+src/Indexer.s: src/Indexer.cpp.s
+.PHONY : src/Indexer.s
+
+# target to generate assembly for a file
+src/Indexer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fetcher.dir/build.make CMakeFiles/fetcher.dir/src/Indexer.cpp.s
+.PHONY : src/Indexer.cpp.s
+
+src/InvertedIndex.o: src/InvertedIndex.cpp.o
+.PHONY : src/InvertedIndex.o
+
+# target to build an object file
+src/InvertedIndex.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fetcher.dir/build.make CMakeFiles/fetcher.dir/src/InvertedIndex.cpp.o
+.PHONY : src/InvertedIndex.cpp.o
+
+src/InvertedIndex.i: src/InvertedIndex.cpp.i
+.PHONY : src/InvertedIndex.i
+
+# target to preprocess a source file
+src/InvertedIndex.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fetcher.dir/build.make CMakeFiles/fetcher.dir/src/InvertedIndex.cpp.i
+.PHONY : src/InvertedIndex.cpp.i
+
+src/InvertedIndex.s: src/InvertedIndex.cpp.s
+.PHONY : src/InvertedIndex.s
+
+# target to generate assembly for a file
+src/InvertedIndex.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fetcher.dir/build.make CMakeFiles/fetcher.dir/src/InvertedIndex.cpp.s
+.PHONY : src/InvertedIndex.cpp.s
+
 src/LinkExtractor.o: src/LinkExtractor.cpp.o
 .PHONY : src/LinkExtractor.o
 
@@ -308,6 +404,30 @@ src/LinkExtractor.s: src/LinkExtractor.cpp.s
 src/LinkExtractor.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fetcher.dir/build.make CMakeFiles/fetcher.dir/src/LinkExtractor.cpp.s
 .PHONY : src/LinkExtractor.cpp.s
+
+src/PagePosting.o: src/PagePosting.cpp.o
+.PHONY : src/PagePosting.o
+
+# target to build an object file
+src/PagePosting.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fetcher.dir/build.make CMakeFiles/fetcher.dir/src/PagePosting.cpp.o
+.PHONY : src/PagePosting.cpp.o
+
+src/PagePosting.i: src/PagePosting.cpp.i
+.PHONY : src/PagePosting.i
+
+# target to preprocess a source file
+src/PagePosting.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fetcher.dir/build.make CMakeFiles/fetcher.dir/src/PagePosting.cpp.i
+.PHONY : src/PagePosting.cpp.i
+
+src/PagePosting.s: src/PagePosting.cpp.s
+.PHONY : src/PagePosting.s
+
+# target to generate assembly for a file
+src/PagePosting.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fetcher.dir/build.make CMakeFiles/fetcher.dir/src/PagePosting.cpp.s
+.PHONY : src/PagePosting.cpp.s
 
 src/PageStorage.o: src/PageStorage.cpp.o
 .PHONY : src/PageStorage.o
@@ -333,6 +453,54 @@ src/PageStorage.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fetcher.dir/build.make CMakeFiles/fetcher.dir/src/PageStorage.cpp.s
 .PHONY : src/PageStorage.cpp.s
 
+src/Posting.o: src/Posting.cpp.o
+.PHONY : src/Posting.o
+
+# target to build an object file
+src/Posting.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fetcher.dir/build.make CMakeFiles/fetcher.dir/src/Posting.cpp.o
+.PHONY : src/Posting.cpp.o
+
+src/Posting.i: src/Posting.cpp.i
+.PHONY : src/Posting.i
+
+# target to preprocess a source file
+src/Posting.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fetcher.dir/build.make CMakeFiles/fetcher.dir/src/Posting.cpp.i
+.PHONY : src/Posting.cpp.i
+
+src/Posting.s: src/Posting.cpp.s
+.PHONY : src/Posting.s
+
+# target to generate assembly for a file
+src/Posting.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fetcher.dir/build.make CMakeFiles/fetcher.dir/src/Posting.cpp.s
+.PHONY : src/Posting.cpp.s
+
+src/PostingRecord.o: src/PostingRecord.cpp.o
+.PHONY : src/PostingRecord.o
+
+# target to build an object file
+src/PostingRecord.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fetcher.dir/build.make CMakeFiles/fetcher.dir/src/PostingRecord.cpp.o
+.PHONY : src/PostingRecord.cpp.o
+
+src/PostingRecord.i: src/PostingRecord.cpp.i
+.PHONY : src/PostingRecord.i
+
+# target to preprocess a source file
+src/PostingRecord.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fetcher.dir/build.make CMakeFiles/fetcher.dir/src/PostingRecord.cpp.i
+.PHONY : src/PostingRecord.cpp.i
+
+src/PostingRecord.s: src/PostingRecord.cpp.s
+.PHONY : src/PostingRecord.s
+
+# target to generate assembly for a file
+src/PostingRecord.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fetcher.dir/build.make CMakeFiles/fetcher.dir/src/PostingRecord.cpp.s
+.PHONY : src/PostingRecord.cpp.s
+
 src/SeenStore.o: src/SeenStore.cpp.o
 .PHONY : src/SeenStore.o
 
@@ -356,6 +524,54 @@ src/SeenStore.s: src/SeenStore.cpp.s
 src/SeenStore.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fetcher.dir/build.make CMakeFiles/fetcher.dir/src/SeenStore.cpp.s
 .PHONY : src/SeenStore.cpp.s
+
+src/StopWordRemover.o: src/StopWordRemover.cpp.o
+.PHONY : src/StopWordRemover.o
+
+# target to build an object file
+src/StopWordRemover.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fetcher.dir/build.make CMakeFiles/fetcher.dir/src/StopWordRemover.cpp.o
+.PHONY : src/StopWordRemover.cpp.o
+
+src/StopWordRemover.i: src/StopWordRemover.cpp.i
+.PHONY : src/StopWordRemover.i
+
+# target to preprocess a source file
+src/StopWordRemover.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fetcher.dir/build.make CMakeFiles/fetcher.dir/src/StopWordRemover.cpp.i
+.PHONY : src/StopWordRemover.cpp.i
+
+src/StopWordRemover.s: src/StopWordRemover.cpp.s
+.PHONY : src/StopWordRemover.s
+
+# target to generate assembly for a file
+src/StopWordRemover.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fetcher.dir/build.make CMakeFiles/fetcher.dir/src/StopWordRemover.cpp.s
+.PHONY : src/StopWordRemover.cpp.s
+
+src/Tokenizer.o: src/Tokenizer.cpp.o
+.PHONY : src/Tokenizer.o
+
+# target to build an object file
+src/Tokenizer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fetcher.dir/build.make CMakeFiles/fetcher.dir/src/Tokenizer.cpp.o
+.PHONY : src/Tokenizer.cpp.o
+
+src/Tokenizer.i: src/Tokenizer.cpp.i
+.PHONY : src/Tokenizer.i
+
+# target to preprocess a source file
+src/Tokenizer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fetcher.dir/build.make CMakeFiles/fetcher.dir/src/Tokenizer.cpp.i
+.PHONY : src/Tokenizer.cpp.i
+
+src/Tokenizer.s: src/Tokenizer.cpp.s
+.PHONY : src/Tokenizer.s
+
+# target to generate assembly for a file
+src/Tokenizer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fetcher.dir/build.make CMakeFiles/fetcher.dir/src/Tokenizer.cpp.s
+.PHONY : src/Tokenizer.cpp.s
 
 src/URLNormalizer.o: src/URLNormalizer.cpp.o
 .PHONY : src/URLNormalizer.o
@@ -405,173 +621,149 @@ src/crawler.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fetcher.dir/build.make CMakeFiles/fetcher.dir/src/crawler.cpp.s
 .PHONY : src/crawler.cpp.s
 
-testing/CrawlerTest.o: testing/CrawlerTest.cpp.o
-.PHONY : testing/CrawlerTest.o
+testing/HTMLParserTest.o: testing/HTMLParserTest.cpp.o
+.PHONY : testing/HTMLParserTest.o
 
 # target to build an object file
-testing/CrawlerTest.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/URLNormalizerTesting.dir/build.make CMakeFiles/URLNormalizerTesting.dir/testing/CrawlerTest.cpp.o
-.PHONY : testing/CrawlerTest.cpp.o
+testing/HTMLParserTest.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/URLNormalizerTesting.dir/build.make CMakeFiles/URLNormalizerTesting.dir/testing/HTMLParserTest.cpp.o
+.PHONY : testing/HTMLParserTest.cpp.o
 
-testing/CrawlerTest.i: testing/CrawlerTest.cpp.i
-.PHONY : testing/CrawlerTest.i
+testing/HTMLParserTest.i: testing/HTMLParserTest.cpp.i
+.PHONY : testing/HTMLParserTest.i
 
 # target to preprocess a source file
-testing/CrawlerTest.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/URLNormalizerTesting.dir/build.make CMakeFiles/URLNormalizerTesting.dir/testing/CrawlerTest.cpp.i
-.PHONY : testing/CrawlerTest.cpp.i
+testing/HTMLParserTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/URLNormalizerTesting.dir/build.make CMakeFiles/URLNormalizerTesting.dir/testing/HTMLParserTest.cpp.i
+.PHONY : testing/HTMLParserTest.cpp.i
 
-testing/CrawlerTest.s: testing/CrawlerTest.cpp.s
-.PHONY : testing/CrawlerTest.s
+testing/HTMLParserTest.s: testing/HTMLParserTest.cpp.s
+.PHONY : testing/HTMLParserTest.s
 
 # target to generate assembly for a file
-testing/CrawlerTest.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/URLNormalizerTesting.dir/build.make CMakeFiles/URLNormalizerTesting.dir/testing/CrawlerTest.cpp.s
-.PHONY : testing/CrawlerTest.cpp.s
+testing/HTMLParserTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/URLNormalizerTesting.dir/build.make CMakeFiles/URLNormalizerTesting.dir/testing/HTMLParserTest.cpp.s
+.PHONY : testing/HTMLParserTest.cpp.s
 
-testing/FetcherTest.o: testing/FetcherTest.cpp.o
-.PHONY : testing/FetcherTest.o
+testing/IndexStorageTest.o: testing/IndexStorageTest.cpp.o
+.PHONY : testing/IndexStorageTest.o
 
 # target to build an object file
-testing/FetcherTest.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/URLNormalizerTesting.dir/build.make CMakeFiles/URLNormalizerTesting.dir/testing/FetcherTest.cpp.o
-.PHONY : testing/FetcherTest.cpp.o
+testing/IndexStorageTest.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/URLNormalizerTesting.dir/build.make CMakeFiles/URLNormalizerTesting.dir/testing/IndexStorageTest.cpp.o
+.PHONY : testing/IndexStorageTest.cpp.o
 
-testing/FetcherTest.i: testing/FetcherTest.cpp.i
-.PHONY : testing/FetcherTest.i
+testing/IndexStorageTest.i: testing/IndexStorageTest.cpp.i
+.PHONY : testing/IndexStorageTest.i
 
 # target to preprocess a source file
-testing/FetcherTest.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/URLNormalizerTesting.dir/build.make CMakeFiles/URLNormalizerTesting.dir/testing/FetcherTest.cpp.i
-.PHONY : testing/FetcherTest.cpp.i
+testing/IndexStorageTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/URLNormalizerTesting.dir/build.make CMakeFiles/URLNormalizerTesting.dir/testing/IndexStorageTest.cpp.i
+.PHONY : testing/IndexStorageTest.cpp.i
 
-testing/FetcherTest.s: testing/FetcherTest.cpp.s
-.PHONY : testing/FetcherTest.s
+testing/IndexStorageTest.s: testing/IndexStorageTest.cpp.s
+.PHONY : testing/IndexStorageTest.s
 
 # target to generate assembly for a file
-testing/FetcherTest.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/URLNormalizerTesting.dir/build.make CMakeFiles/URLNormalizerTesting.dir/testing/FetcherTest.cpp.s
-.PHONY : testing/FetcherTest.cpp.s
+testing/IndexStorageTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/URLNormalizerTesting.dir/build.make CMakeFiles/URLNormalizerTesting.dir/testing/IndexStorageTest.cpp.s
+.PHONY : testing/IndexStorageTest.cpp.s
 
-testing/FrontierTest.o: testing/FrontierTest.cpp.o
-.PHONY : testing/FrontierTest.o
+testing/IndexerTest.o: testing/IndexerTest.cpp.o
+.PHONY : testing/IndexerTest.o
 
 # target to build an object file
-testing/FrontierTest.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/URLNormalizerTesting.dir/build.make CMakeFiles/URLNormalizerTesting.dir/testing/FrontierTest.cpp.o
-.PHONY : testing/FrontierTest.cpp.o
+testing/IndexerTest.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/URLNormalizerTesting.dir/build.make CMakeFiles/URLNormalizerTesting.dir/testing/IndexerTest.cpp.o
+.PHONY : testing/IndexerTest.cpp.o
 
-testing/FrontierTest.i: testing/FrontierTest.cpp.i
-.PHONY : testing/FrontierTest.i
+testing/IndexerTest.i: testing/IndexerTest.cpp.i
+.PHONY : testing/IndexerTest.i
 
 # target to preprocess a source file
-testing/FrontierTest.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/URLNormalizerTesting.dir/build.make CMakeFiles/URLNormalizerTesting.dir/testing/FrontierTest.cpp.i
-.PHONY : testing/FrontierTest.cpp.i
+testing/IndexerTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/URLNormalizerTesting.dir/build.make CMakeFiles/URLNormalizerTesting.dir/testing/IndexerTest.cpp.i
+.PHONY : testing/IndexerTest.cpp.i
 
-testing/FrontierTest.s: testing/FrontierTest.cpp.s
-.PHONY : testing/FrontierTest.s
+testing/IndexerTest.s: testing/IndexerTest.cpp.s
+.PHONY : testing/IndexerTest.s
 
 # target to generate assembly for a file
-testing/FrontierTest.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/URLNormalizerTesting.dir/build.make CMakeFiles/URLNormalizerTesting.dir/testing/FrontierTest.cpp.s
-.PHONY : testing/FrontierTest.cpp.s
+testing/IndexerTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/URLNormalizerTesting.dir/build.make CMakeFiles/URLNormalizerTesting.dir/testing/IndexerTest.cpp.s
+.PHONY : testing/IndexerTest.cpp.s
 
-testing/LinkExtractorTest.o: testing/LinkExtractorTest.cpp.o
-.PHONY : testing/LinkExtractorTest.o
+testing/InvertedIndexTest.o: testing/InvertedIndexTest.cpp.o
+.PHONY : testing/InvertedIndexTest.o
 
 # target to build an object file
-testing/LinkExtractorTest.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/URLNormalizerTesting.dir/build.make CMakeFiles/URLNormalizerTesting.dir/testing/LinkExtractorTest.cpp.o
-.PHONY : testing/LinkExtractorTest.cpp.o
+testing/InvertedIndexTest.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/URLNormalizerTesting.dir/build.make CMakeFiles/URLNormalizerTesting.dir/testing/InvertedIndexTest.cpp.o
+.PHONY : testing/InvertedIndexTest.cpp.o
 
-testing/LinkExtractorTest.i: testing/LinkExtractorTest.cpp.i
-.PHONY : testing/LinkExtractorTest.i
+testing/InvertedIndexTest.i: testing/InvertedIndexTest.cpp.i
+.PHONY : testing/InvertedIndexTest.i
 
 # target to preprocess a source file
-testing/LinkExtractorTest.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/URLNormalizerTesting.dir/build.make CMakeFiles/URLNormalizerTesting.dir/testing/LinkExtractorTest.cpp.i
-.PHONY : testing/LinkExtractorTest.cpp.i
+testing/InvertedIndexTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/URLNormalizerTesting.dir/build.make CMakeFiles/URLNormalizerTesting.dir/testing/InvertedIndexTest.cpp.i
+.PHONY : testing/InvertedIndexTest.cpp.i
 
-testing/LinkExtractorTest.s: testing/LinkExtractorTest.cpp.s
-.PHONY : testing/LinkExtractorTest.s
+testing/InvertedIndexTest.s: testing/InvertedIndexTest.cpp.s
+.PHONY : testing/InvertedIndexTest.s
 
 # target to generate assembly for a file
-testing/LinkExtractorTest.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/URLNormalizerTesting.dir/build.make CMakeFiles/URLNormalizerTesting.dir/testing/LinkExtractorTest.cpp.s
-.PHONY : testing/LinkExtractorTest.cpp.s
+testing/InvertedIndexTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/URLNormalizerTesting.dir/build.make CMakeFiles/URLNormalizerTesting.dir/testing/InvertedIndexTest.cpp.s
+.PHONY : testing/InvertedIndexTest.cpp.s
 
-testing/PageStorageTest.o: testing/PageStorageTest.cpp.o
-.PHONY : testing/PageStorageTest.o
+testing/StopWordRemoverTest.o: testing/StopWordRemoverTest.cpp.o
+.PHONY : testing/StopWordRemoverTest.o
 
 # target to build an object file
-testing/PageStorageTest.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/URLNormalizerTesting.dir/build.make CMakeFiles/URLNormalizerTesting.dir/testing/PageStorageTest.cpp.o
-.PHONY : testing/PageStorageTest.cpp.o
+testing/StopWordRemoverTest.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/URLNormalizerTesting.dir/build.make CMakeFiles/URLNormalizerTesting.dir/testing/StopWordRemoverTest.cpp.o
+.PHONY : testing/StopWordRemoverTest.cpp.o
 
-testing/PageStorageTest.i: testing/PageStorageTest.cpp.i
-.PHONY : testing/PageStorageTest.i
+testing/StopWordRemoverTest.i: testing/StopWordRemoverTest.cpp.i
+.PHONY : testing/StopWordRemoverTest.i
 
 # target to preprocess a source file
-testing/PageStorageTest.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/URLNormalizerTesting.dir/build.make CMakeFiles/URLNormalizerTesting.dir/testing/PageStorageTest.cpp.i
-.PHONY : testing/PageStorageTest.cpp.i
+testing/StopWordRemoverTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/URLNormalizerTesting.dir/build.make CMakeFiles/URLNormalizerTesting.dir/testing/StopWordRemoverTest.cpp.i
+.PHONY : testing/StopWordRemoverTest.cpp.i
 
-testing/PageStorageTest.s: testing/PageStorageTest.cpp.s
-.PHONY : testing/PageStorageTest.s
+testing/StopWordRemoverTest.s: testing/StopWordRemoverTest.cpp.s
+.PHONY : testing/StopWordRemoverTest.s
 
 # target to generate assembly for a file
-testing/PageStorageTest.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/URLNormalizerTesting.dir/build.make CMakeFiles/URLNormalizerTesting.dir/testing/PageStorageTest.cpp.s
-.PHONY : testing/PageStorageTest.cpp.s
+testing/StopWordRemoverTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/URLNormalizerTesting.dir/build.make CMakeFiles/URLNormalizerTesting.dir/testing/StopWordRemoverTest.cpp.s
+.PHONY : testing/StopWordRemoverTest.cpp.s
 
-testing/SeenStoreTest.o: testing/SeenStoreTest.cpp.o
-.PHONY : testing/SeenStoreTest.o
+testing/TokenizerTest.o: testing/TokenizerTest.cpp.o
+.PHONY : testing/TokenizerTest.o
 
 # target to build an object file
-testing/SeenStoreTest.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/URLNormalizerTesting.dir/build.make CMakeFiles/URLNormalizerTesting.dir/testing/SeenStoreTest.cpp.o
-.PHONY : testing/SeenStoreTest.cpp.o
+testing/TokenizerTest.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/URLNormalizerTesting.dir/build.make CMakeFiles/URLNormalizerTesting.dir/testing/TokenizerTest.cpp.o
+.PHONY : testing/TokenizerTest.cpp.o
 
-testing/SeenStoreTest.i: testing/SeenStoreTest.cpp.i
-.PHONY : testing/SeenStoreTest.i
-
-# target to preprocess a source file
-testing/SeenStoreTest.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/URLNormalizerTesting.dir/build.make CMakeFiles/URLNormalizerTesting.dir/testing/SeenStoreTest.cpp.i
-.PHONY : testing/SeenStoreTest.cpp.i
-
-testing/SeenStoreTest.s: testing/SeenStoreTest.cpp.s
-.PHONY : testing/SeenStoreTest.s
-
-# target to generate assembly for a file
-testing/SeenStoreTest.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/URLNormalizerTesting.dir/build.make CMakeFiles/URLNormalizerTesting.dir/testing/SeenStoreTest.cpp.s
-.PHONY : testing/SeenStoreTest.cpp.s
-
-testing/URLNormalizerTest.o: testing/URLNormalizerTest.cpp.o
-.PHONY : testing/URLNormalizerTest.o
-
-# target to build an object file
-testing/URLNormalizerTest.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/URLNormalizerTesting.dir/build.make CMakeFiles/URLNormalizerTesting.dir/testing/URLNormalizerTest.cpp.o
-.PHONY : testing/URLNormalizerTest.cpp.o
-
-testing/URLNormalizerTest.i: testing/URLNormalizerTest.cpp.i
-.PHONY : testing/URLNormalizerTest.i
+testing/TokenizerTest.i: testing/TokenizerTest.cpp.i
+.PHONY : testing/TokenizerTest.i
 
 # target to preprocess a source file
-testing/URLNormalizerTest.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/URLNormalizerTesting.dir/build.make CMakeFiles/URLNormalizerTesting.dir/testing/URLNormalizerTest.cpp.i
-.PHONY : testing/URLNormalizerTest.cpp.i
+testing/TokenizerTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/URLNormalizerTesting.dir/build.make CMakeFiles/URLNormalizerTesting.dir/testing/TokenizerTest.cpp.i
+.PHONY : testing/TokenizerTest.cpp.i
 
-testing/URLNormalizerTest.s: testing/URLNormalizerTest.cpp.s
-.PHONY : testing/URLNormalizerTest.s
+testing/TokenizerTest.s: testing/TokenizerTest.cpp.s
+.PHONY : testing/TokenizerTest.s
 
 # target to generate assembly for a file
-testing/URLNormalizerTest.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/URLNormalizerTesting.dir/build.make CMakeFiles/URLNormalizerTesting.dir/testing/URLNormalizerTest.cpp.s
-.PHONY : testing/URLNormalizerTest.cpp.s
+testing/TokenizerTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/URLNormalizerTesting.dir/build.make CMakeFiles/URLNormalizerTesting.dir/testing/TokenizerTest.cpp.s
+.PHONY : testing/TokenizerTest.cpp.s
 
 # Help Target
 help:
@@ -600,42 +792,66 @@ help:
 	@echo "... src/Frontier.o"
 	@echo "... src/Frontier.i"
 	@echo "... src/Frontier.s"
+	@echo "... src/HTMLParser.o"
+	@echo "... src/HTMLParser.i"
+	@echo "... src/HTMLParser.s"
+	@echo "... src/IndexStorage.o"
+	@echo "... src/IndexStorage.i"
+	@echo "... src/IndexStorage.s"
+	@echo "... src/Indexer.o"
+	@echo "... src/Indexer.i"
+	@echo "... src/Indexer.s"
+	@echo "... src/InvertedIndex.o"
+	@echo "... src/InvertedIndex.i"
+	@echo "... src/InvertedIndex.s"
 	@echo "... src/LinkExtractor.o"
 	@echo "... src/LinkExtractor.i"
 	@echo "... src/LinkExtractor.s"
+	@echo "... src/PagePosting.o"
+	@echo "... src/PagePosting.i"
+	@echo "... src/PagePosting.s"
 	@echo "... src/PageStorage.o"
 	@echo "... src/PageStorage.i"
 	@echo "... src/PageStorage.s"
+	@echo "... src/Posting.o"
+	@echo "... src/Posting.i"
+	@echo "... src/Posting.s"
+	@echo "... src/PostingRecord.o"
+	@echo "... src/PostingRecord.i"
+	@echo "... src/PostingRecord.s"
 	@echo "... src/SeenStore.o"
 	@echo "... src/SeenStore.i"
 	@echo "... src/SeenStore.s"
+	@echo "... src/StopWordRemover.o"
+	@echo "... src/StopWordRemover.i"
+	@echo "... src/StopWordRemover.s"
+	@echo "... src/Tokenizer.o"
+	@echo "... src/Tokenizer.i"
+	@echo "... src/Tokenizer.s"
 	@echo "... src/URLNormalizer.o"
 	@echo "... src/URLNormalizer.i"
 	@echo "... src/URLNormalizer.s"
 	@echo "... src/crawler.o"
 	@echo "... src/crawler.i"
 	@echo "... src/crawler.s"
-	@echo "... testing/CrawlerTest.o"
-	@echo "... testing/CrawlerTest.i"
-	@echo "... testing/CrawlerTest.s"
-	@echo "... testing/FetcherTest.o"
-	@echo "... testing/FetcherTest.i"
-	@echo "... testing/FetcherTest.s"
-	@echo "... testing/FrontierTest.o"
-	@echo "... testing/FrontierTest.i"
-	@echo "... testing/FrontierTest.s"
-	@echo "... testing/LinkExtractorTest.o"
-	@echo "... testing/LinkExtractorTest.i"
-	@echo "... testing/LinkExtractorTest.s"
-	@echo "... testing/PageStorageTest.o"
-	@echo "... testing/PageStorageTest.i"
-	@echo "... testing/PageStorageTest.s"
-	@echo "... testing/SeenStoreTest.o"
-	@echo "... testing/SeenStoreTest.i"
-	@echo "... testing/SeenStoreTest.s"
-	@echo "... testing/URLNormalizerTest.o"
-	@echo "... testing/URLNormalizerTest.i"
-	@echo "... testing/URLNormalizerTest.s"
+	@echo "... testing/HTMLParserTest.o"
+	@echo "... testing/HTMLParserTest.i"
+	@echo "... testing/HTMLParserTest.s"
+	@echo "... testing/IndexStorageTest.o"
+	@echo "... testing/IndexStorageTest.i"
+	@echo "... testing/IndexStorageTest.s"
+	@echo "... testing/IndexerTest.o"
+	@echo "... testing/IndexerTest.i"
+	@echo "... testing/IndexerTest.s"
+	@echo "... testing/InvertedIndexTest.o"
+	@echo "... testing/InvertedIndexTest.i"
+	@echo "... testing/InvertedIndexTest.s"
+	@echo "... testing/StopWordRemoverTest.o"
+	@echo "... testing/StopWordRemoverTest.i"
+	@echo "... testing/StopWordRemoverTest.s"
+	@echo "... testing/TokenizerTest.o"
+	@echo "... testing/TokenizerTest.i"
+	@echo "... testing/TokenizerTest.s"
 .PHONY : help
 
 

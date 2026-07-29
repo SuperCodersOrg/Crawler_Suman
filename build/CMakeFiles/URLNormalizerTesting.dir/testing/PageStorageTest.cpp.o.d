@@ -307,7 +307,7 @@ CMakeFiles/URLNormalizerTesting.dir/testing/PageStorageTest.cpp.o: \
  /mnt/c/Users/suman/Desktop/Crawler/testing/../include/PageStorage.h \
  /mnt/c/Users/suman/Desktop/Crawler/testing/../include/Database.h \
  /usr/include/sqlite3.h \
- /mnt/c/Users/suman/Desktop/Crawler/testing/../include/../../DS_Library/include/dynamicArray.h \
+ /mnt/c/Users/suman/Desktop/Crawler/testing/../include/../../DS_Library/include/DynamicArray.h \
  /mnt/c/Users/suman/Desktop/Crawler/testing/../include/../../DS_Library/include/../src/dynamicArray.cpp \
  /mnt/c/Users/suman/Desktop/Crawler/testing/../include/../../DS_Library/include/../src/../include/dynamicArray.h \
  /mnt/c/Users/suman/Desktop/Crawler/testing/../include/Frontier.h \
@@ -323,6 +323,7 @@ CMakeFiles/URLNormalizerTesting.dir/testing/PageStorageTest.cpp.o: \
  /mnt/c/Users/suman/Desktop/Crawler/testing/../include/../../DS_Library/include/HashFunction.h \
  /mnt/c/Users/suman/Desktop/Crawler/testing/../include/../../DS_Library/include/../src/hashMap.cpp \
  /mnt/c/Users/suman/Desktop/Crawler/testing/../include/../../DS_Library/include/../src/../include/hashMap.h \
+ /mnt/c/Users/suman/Desktop/Crawler/testing/../include/PostingRecord.h \
  /mnt/c/Users/suman/Desktop/Crawler/testing/../include/frontier.h \
  /mnt/c/Users/suman/Desktop/Crawler/testing/../include/SeenStore.h \
  /mnt/c/Users/suman/Desktop/Crawler/testing/../include/../../DS_Library/include/hashmap.h

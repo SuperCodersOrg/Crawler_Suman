@@ -72,124 +72,108 @@ include CMakeFiles/URLNormalizerTesting.dir/flags.make
 CMakeFiles/URLNormalizerTesting.dir/codegen:
 .PHONY : CMakeFiles/URLNormalizerTesting.dir/codegen
 
-CMakeFiles/URLNormalizerTesting.dir/testing/URLNormalizerTest.cpp.o: CMakeFiles/URLNormalizerTesting.dir/flags.make
-CMakeFiles/URLNormalizerTesting.dir/testing/URLNormalizerTest.cpp.o: /mnt/c/Users/suman/Desktop/Crawler/testing/URLNormalizerTest.cpp
-CMakeFiles/URLNormalizerTesting.dir/testing/URLNormalizerTest.cpp.o: CMakeFiles/URLNormalizerTesting.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/suman/Desktop/Crawler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/URLNormalizerTesting.dir/testing/URLNormalizerTest.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/URLNormalizerTesting.dir/testing/URLNormalizerTest.cpp.o -MF CMakeFiles/URLNormalizerTesting.dir/testing/URLNormalizerTest.cpp.o.d -o CMakeFiles/URLNormalizerTesting.dir/testing/URLNormalizerTest.cpp.o -c /mnt/c/Users/suman/Desktop/Crawler/testing/URLNormalizerTest.cpp
+CMakeFiles/URLNormalizerTesting.dir/testing/HTMLParserTest.cpp.o: CMakeFiles/URLNormalizerTesting.dir/flags.make
+CMakeFiles/URLNormalizerTesting.dir/testing/HTMLParserTest.cpp.o: /mnt/c/Users/suman/Desktop/Crawler/testing/HTMLParserTest.cpp
+CMakeFiles/URLNormalizerTesting.dir/testing/HTMLParserTest.cpp.o: CMakeFiles/URLNormalizerTesting.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/suman/Desktop/Crawler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/URLNormalizerTesting.dir/testing/HTMLParserTest.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/URLNormalizerTesting.dir/testing/HTMLParserTest.cpp.o -MF CMakeFiles/URLNormalizerTesting.dir/testing/HTMLParserTest.cpp.o.d -o CMakeFiles/URLNormalizerTesting.dir/testing/HTMLParserTest.cpp.o -c /mnt/c/Users/suman/Desktop/Crawler/testing/HTMLParserTest.cpp
 
-CMakeFiles/URLNormalizerTesting.dir/testing/URLNormalizerTest.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/URLNormalizerTesting.dir/testing/URLNormalizerTest.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/suman/Desktop/Crawler/testing/URLNormalizerTest.cpp > CMakeFiles/URLNormalizerTesting.dir/testing/URLNormalizerTest.cpp.i
+CMakeFiles/URLNormalizerTesting.dir/testing/HTMLParserTest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/URLNormalizerTesting.dir/testing/HTMLParserTest.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/suman/Desktop/Crawler/testing/HTMLParserTest.cpp > CMakeFiles/URLNormalizerTesting.dir/testing/HTMLParserTest.cpp.i
 
-CMakeFiles/URLNormalizerTesting.dir/testing/URLNormalizerTest.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/URLNormalizerTesting.dir/testing/URLNormalizerTest.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/suman/Desktop/Crawler/testing/URLNormalizerTest.cpp -o CMakeFiles/URLNormalizerTesting.dir/testing/URLNormalizerTest.cpp.s
+CMakeFiles/URLNormalizerTesting.dir/testing/HTMLParserTest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/URLNormalizerTesting.dir/testing/HTMLParserTest.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/suman/Desktop/Crawler/testing/HTMLParserTest.cpp -o CMakeFiles/URLNormalizerTesting.dir/testing/HTMLParserTest.cpp.s
 
-CMakeFiles/URLNormalizerTesting.dir/testing/LinkExtractorTest.cpp.o: CMakeFiles/URLNormalizerTesting.dir/flags.make
-CMakeFiles/URLNormalizerTesting.dir/testing/LinkExtractorTest.cpp.o: /mnt/c/Users/suman/Desktop/Crawler/testing/LinkExtractorTest.cpp
-CMakeFiles/URLNormalizerTesting.dir/testing/LinkExtractorTest.cpp.o: CMakeFiles/URLNormalizerTesting.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/suman/Desktop/Crawler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/URLNormalizerTesting.dir/testing/LinkExtractorTest.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/URLNormalizerTesting.dir/testing/LinkExtractorTest.cpp.o -MF CMakeFiles/URLNormalizerTesting.dir/testing/LinkExtractorTest.cpp.o.d -o CMakeFiles/URLNormalizerTesting.dir/testing/LinkExtractorTest.cpp.o -c /mnt/c/Users/suman/Desktop/Crawler/testing/LinkExtractorTest.cpp
+CMakeFiles/URLNormalizerTesting.dir/testing/TokenizerTest.cpp.o: CMakeFiles/URLNormalizerTesting.dir/flags.make
+CMakeFiles/URLNormalizerTesting.dir/testing/TokenizerTest.cpp.o: /mnt/c/Users/suman/Desktop/Crawler/testing/TokenizerTest.cpp
+CMakeFiles/URLNormalizerTesting.dir/testing/TokenizerTest.cpp.o: CMakeFiles/URLNormalizerTesting.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/suman/Desktop/Crawler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/URLNormalizerTesting.dir/testing/TokenizerTest.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/URLNormalizerTesting.dir/testing/TokenizerTest.cpp.o -MF CMakeFiles/URLNormalizerTesting.dir/testing/TokenizerTest.cpp.o.d -o CMakeFiles/URLNormalizerTesting.dir/testing/TokenizerTest.cpp.o -c /mnt/c/Users/suman/Desktop/Crawler/testing/TokenizerTest.cpp
 
-CMakeFiles/URLNormalizerTesting.dir/testing/LinkExtractorTest.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/URLNormalizerTesting.dir/testing/LinkExtractorTest.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/suman/Desktop/Crawler/testing/LinkExtractorTest.cpp > CMakeFiles/URLNormalizerTesting.dir/testing/LinkExtractorTest.cpp.i
+CMakeFiles/URLNormalizerTesting.dir/testing/TokenizerTest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/URLNormalizerTesting.dir/testing/TokenizerTest.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/suman/Desktop/Crawler/testing/TokenizerTest.cpp > CMakeFiles/URLNormalizerTesting.dir/testing/TokenizerTest.cpp.i
 
-CMakeFiles/URLNormalizerTesting.dir/testing/LinkExtractorTest.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/URLNormalizerTesting.dir/testing/LinkExtractorTest.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/suman/Desktop/Crawler/testing/LinkExtractorTest.cpp -o CMakeFiles/URLNormalizerTesting.dir/testing/LinkExtractorTest.cpp.s
+CMakeFiles/URLNormalizerTesting.dir/testing/TokenizerTest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/URLNormalizerTesting.dir/testing/TokenizerTest.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/suman/Desktop/Crawler/testing/TokenizerTest.cpp -o CMakeFiles/URLNormalizerTesting.dir/testing/TokenizerTest.cpp.s
 
-CMakeFiles/URLNormalizerTesting.dir/testing/FetcherTest.cpp.o: CMakeFiles/URLNormalizerTesting.dir/flags.make
-CMakeFiles/URLNormalizerTesting.dir/testing/FetcherTest.cpp.o: /mnt/c/Users/suman/Desktop/Crawler/testing/FetcherTest.cpp
-CMakeFiles/URLNormalizerTesting.dir/testing/FetcherTest.cpp.o: CMakeFiles/URLNormalizerTesting.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/suman/Desktop/Crawler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/URLNormalizerTesting.dir/testing/FetcherTest.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/URLNormalizerTesting.dir/testing/FetcherTest.cpp.o -MF CMakeFiles/URLNormalizerTesting.dir/testing/FetcherTest.cpp.o.d -o CMakeFiles/URLNormalizerTesting.dir/testing/FetcherTest.cpp.o -c /mnt/c/Users/suman/Desktop/Crawler/testing/FetcherTest.cpp
+CMakeFiles/URLNormalizerTesting.dir/testing/StopWordRemoverTest.cpp.o: CMakeFiles/URLNormalizerTesting.dir/flags.make
+CMakeFiles/URLNormalizerTesting.dir/testing/StopWordRemoverTest.cpp.o: /mnt/c/Users/suman/Desktop/Crawler/testing/StopWordRemoverTest.cpp
+CMakeFiles/URLNormalizerTesting.dir/testing/StopWordRemoverTest.cpp.o: CMakeFiles/URLNormalizerTesting.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/suman/Desktop/Crawler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/URLNormalizerTesting.dir/testing/StopWordRemoverTest.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/URLNormalizerTesting.dir/testing/StopWordRemoverTest.cpp.o -MF CMakeFiles/URLNormalizerTesting.dir/testing/StopWordRemoverTest.cpp.o.d -o CMakeFiles/URLNormalizerTesting.dir/testing/StopWordRemoverTest.cpp.o -c /mnt/c/Users/suman/Desktop/Crawler/testing/StopWordRemoverTest.cpp
 
-CMakeFiles/URLNormalizerTesting.dir/testing/FetcherTest.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/URLNormalizerTesting.dir/testing/FetcherTest.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/suman/Desktop/Crawler/testing/FetcherTest.cpp > CMakeFiles/URLNormalizerTesting.dir/testing/FetcherTest.cpp.i
+CMakeFiles/URLNormalizerTesting.dir/testing/StopWordRemoverTest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/URLNormalizerTesting.dir/testing/StopWordRemoverTest.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/suman/Desktop/Crawler/testing/StopWordRemoverTest.cpp > CMakeFiles/URLNormalizerTesting.dir/testing/StopWordRemoverTest.cpp.i
 
-CMakeFiles/URLNormalizerTesting.dir/testing/FetcherTest.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/URLNormalizerTesting.dir/testing/FetcherTest.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/suman/Desktop/Crawler/testing/FetcherTest.cpp -o CMakeFiles/URLNormalizerTesting.dir/testing/FetcherTest.cpp.s
+CMakeFiles/URLNormalizerTesting.dir/testing/StopWordRemoverTest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/URLNormalizerTesting.dir/testing/StopWordRemoverTest.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/suman/Desktop/Crawler/testing/StopWordRemoverTest.cpp -o CMakeFiles/URLNormalizerTesting.dir/testing/StopWordRemoverTest.cpp.s
 
-CMakeFiles/URLNormalizerTesting.dir/testing/FrontierTest.cpp.o: CMakeFiles/URLNormalizerTesting.dir/flags.make
-CMakeFiles/URLNormalizerTesting.dir/testing/FrontierTest.cpp.o: /mnt/c/Users/suman/Desktop/Crawler/testing/FrontierTest.cpp
-CMakeFiles/URLNormalizerTesting.dir/testing/FrontierTest.cpp.o: CMakeFiles/URLNormalizerTesting.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/suman/Desktop/Crawler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/URLNormalizerTesting.dir/testing/FrontierTest.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/URLNormalizerTesting.dir/testing/FrontierTest.cpp.o -MF CMakeFiles/URLNormalizerTesting.dir/testing/FrontierTest.cpp.o.d -o CMakeFiles/URLNormalizerTesting.dir/testing/FrontierTest.cpp.o -c /mnt/c/Users/suman/Desktop/Crawler/testing/FrontierTest.cpp
+CMakeFiles/URLNormalizerTesting.dir/testing/InvertedIndexTest.cpp.o: CMakeFiles/URLNormalizerTesting.dir/flags.make
+CMakeFiles/URLNormalizerTesting.dir/testing/InvertedIndexTest.cpp.o: /mnt/c/Users/suman/Desktop/Crawler/testing/InvertedIndexTest.cpp
+CMakeFiles/URLNormalizerTesting.dir/testing/InvertedIndexTest.cpp.o: CMakeFiles/URLNormalizerTesting.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/suman/Desktop/Crawler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/URLNormalizerTesting.dir/testing/InvertedIndexTest.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/URLNormalizerTesting.dir/testing/InvertedIndexTest.cpp.o -MF CMakeFiles/URLNormalizerTesting.dir/testing/InvertedIndexTest.cpp.o.d -o CMakeFiles/URLNormalizerTesting.dir/testing/InvertedIndexTest.cpp.o -c /mnt/c/Users/suman/Desktop/Crawler/testing/InvertedIndexTest.cpp
 
-CMakeFiles/URLNormalizerTesting.dir/testing/FrontierTest.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/URLNormalizerTesting.dir/testing/FrontierTest.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/suman/Desktop/Crawler/testing/FrontierTest.cpp > CMakeFiles/URLNormalizerTesting.dir/testing/FrontierTest.cpp.i
+CMakeFiles/URLNormalizerTesting.dir/testing/InvertedIndexTest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/URLNormalizerTesting.dir/testing/InvertedIndexTest.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/suman/Desktop/Crawler/testing/InvertedIndexTest.cpp > CMakeFiles/URLNormalizerTesting.dir/testing/InvertedIndexTest.cpp.i
 
-CMakeFiles/URLNormalizerTesting.dir/testing/FrontierTest.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/URLNormalizerTesting.dir/testing/FrontierTest.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/suman/Desktop/Crawler/testing/FrontierTest.cpp -o CMakeFiles/URLNormalizerTesting.dir/testing/FrontierTest.cpp.s
+CMakeFiles/URLNormalizerTesting.dir/testing/InvertedIndexTest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/URLNormalizerTesting.dir/testing/InvertedIndexTest.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/suman/Desktop/Crawler/testing/InvertedIndexTest.cpp -o CMakeFiles/URLNormalizerTesting.dir/testing/InvertedIndexTest.cpp.s
 
-CMakeFiles/URLNormalizerTesting.dir/testing/SeenStoreTest.cpp.o: CMakeFiles/URLNormalizerTesting.dir/flags.make
-CMakeFiles/URLNormalizerTesting.dir/testing/SeenStoreTest.cpp.o: /mnt/c/Users/suman/Desktop/Crawler/testing/SeenStoreTest.cpp
-CMakeFiles/URLNormalizerTesting.dir/testing/SeenStoreTest.cpp.o: CMakeFiles/URLNormalizerTesting.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/suman/Desktop/Crawler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/URLNormalizerTesting.dir/testing/SeenStoreTest.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/URLNormalizerTesting.dir/testing/SeenStoreTest.cpp.o -MF CMakeFiles/URLNormalizerTesting.dir/testing/SeenStoreTest.cpp.o.d -o CMakeFiles/URLNormalizerTesting.dir/testing/SeenStoreTest.cpp.o -c /mnt/c/Users/suman/Desktop/Crawler/testing/SeenStoreTest.cpp
+CMakeFiles/URLNormalizerTesting.dir/testing/IndexStorageTest.cpp.o: CMakeFiles/URLNormalizerTesting.dir/flags.make
+CMakeFiles/URLNormalizerTesting.dir/testing/IndexStorageTest.cpp.o: /mnt/c/Users/suman/Desktop/Crawler/testing/IndexStorageTest.cpp
+CMakeFiles/URLNormalizerTesting.dir/testing/IndexStorageTest.cpp.o: CMakeFiles/URLNormalizerTesting.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/suman/Desktop/Crawler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/URLNormalizerTesting.dir/testing/IndexStorageTest.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/URLNormalizerTesting.dir/testing/IndexStorageTest.cpp.o -MF CMakeFiles/URLNormalizerTesting.dir/testing/IndexStorageTest.cpp.o.d -o CMakeFiles/URLNormalizerTesting.dir/testing/IndexStorageTest.cpp.o -c /mnt/c/Users/suman/Desktop/Crawler/testing/IndexStorageTest.cpp
 
-CMakeFiles/URLNormalizerTesting.dir/testing/SeenStoreTest.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/URLNormalizerTesting.dir/testing/SeenStoreTest.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/suman/Desktop/Crawler/testing/SeenStoreTest.cpp > CMakeFiles/URLNormalizerTesting.dir/testing/SeenStoreTest.cpp.i
+CMakeFiles/URLNormalizerTesting.dir/testing/IndexStorageTest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/URLNormalizerTesting.dir/testing/IndexStorageTest.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/suman/Desktop/Crawler/testing/IndexStorageTest.cpp > CMakeFiles/URLNormalizerTesting.dir/testing/IndexStorageTest.cpp.i
 
-CMakeFiles/URLNormalizerTesting.dir/testing/SeenStoreTest.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/URLNormalizerTesting.dir/testing/SeenStoreTest.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/suman/Desktop/Crawler/testing/SeenStoreTest.cpp -o CMakeFiles/URLNormalizerTesting.dir/testing/SeenStoreTest.cpp.s
+CMakeFiles/URLNormalizerTesting.dir/testing/IndexStorageTest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/URLNormalizerTesting.dir/testing/IndexStorageTest.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/suman/Desktop/Crawler/testing/IndexStorageTest.cpp -o CMakeFiles/URLNormalizerTesting.dir/testing/IndexStorageTest.cpp.s
 
-CMakeFiles/URLNormalizerTesting.dir/testing/PageStorageTest.cpp.o: CMakeFiles/URLNormalizerTesting.dir/flags.make
-CMakeFiles/URLNormalizerTesting.dir/testing/PageStorageTest.cpp.o: /mnt/c/Users/suman/Desktop/Crawler/testing/PageStorageTest.cpp
-CMakeFiles/URLNormalizerTesting.dir/testing/PageStorageTest.cpp.o: CMakeFiles/URLNormalizerTesting.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/suman/Desktop/Crawler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/URLNormalizerTesting.dir/testing/PageStorageTest.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/URLNormalizerTesting.dir/testing/PageStorageTest.cpp.o -MF CMakeFiles/URLNormalizerTesting.dir/testing/PageStorageTest.cpp.o.d -o CMakeFiles/URLNormalizerTesting.dir/testing/PageStorageTest.cpp.o -c /mnt/c/Users/suman/Desktop/Crawler/testing/PageStorageTest.cpp
+CMakeFiles/URLNormalizerTesting.dir/testing/IndexerTest.cpp.o: CMakeFiles/URLNormalizerTesting.dir/flags.make
+CMakeFiles/URLNormalizerTesting.dir/testing/IndexerTest.cpp.o: /mnt/c/Users/suman/Desktop/Crawler/testing/IndexerTest.cpp
+CMakeFiles/URLNormalizerTesting.dir/testing/IndexerTest.cpp.o: CMakeFiles/URLNormalizerTesting.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/suman/Desktop/Crawler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/URLNormalizerTesting.dir/testing/IndexerTest.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/URLNormalizerTesting.dir/testing/IndexerTest.cpp.o -MF CMakeFiles/URLNormalizerTesting.dir/testing/IndexerTest.cpp.o.d -o CMakeFiles/URLNormalizerTesting.dir/testing/IndexerTest.cpp.o -c /mnt/c/Users/suman/Desktop/Crawler/testing/IndexerTest.cpp
 
-CMakeFiles/URLNormalizerTesting.dir/testing/PageStorageTest.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/URLNormalizerTesting.dir/testing/PageStorageTest.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/suman/Desktop/Crawler/testing/PageStorageTest.cpp > CMakeFiles/URLNormalizerTesting.dir/testing/PageStorageTest.cpp.i
+CMakeFiles/URLNormalizerTesting.dir/testing/IndexerTest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/URLNormalizerTesting.dir/testing/IndexerTest.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/suman/Desktop/Crawler/testing/IndexerTest.cpp > CMakeFiles/URLNormalizerTesting.dir/testing/IndexerTest.cpp.i
 
-CMakeFiles/URLNormalizerTesting.dir/testing/PageStorageTest.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/URLNormalizerTesting.dir/testing/PageStorageTest.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/suman/Desktop/Crawler/testing/PageStorageTest.cpp -o CMakeFiles/URLNormalizerTesting.dir/testing/PageStorageTest.cpp.s
-
-CMakeFiles/URLNormalizerTesting.dir/testing/CrawlerTest.cpp.o: CMakeFiles/URLNormalizerTesting.dir/flags.make
-CMakeFiles/URLNormalizerTesting.dir/testing/CrawlerTest.cpp.o: /mnt/c/Users/suman/Desktop/Crawler/testing/CrawlerTest.cpp
-CMakeFiles/URLNormalizerTesting.dir/testing/CrawlerTest.cpp.o: CMakeFiles/URLNormalizerTesting.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/suman/Desktop/Crawler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/URLNormalizerTesting.dir/testing/CrawlerTest.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/URLNormalizerTesting.dir/testing/CrawlerTest.cpp.o -MF CMakeFiles/URLNormalizerTesting.dir/testing/CrawlerTest.cpp.o.d -o CMakeFiles/URLNormalizerTesting.dir/testing/CrawlerTest.cpp.o -c /mnt/c/Users/suman/Desktop/Crawler/testing/CrawlerTest.cpp
-
-CMakeFiles/URLNormalizerTesting.dir/testing/CrawlerTest.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/URLNormalizerTesting.dir/testing/CrawlerTest.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/suman/Desktop/Crawler/testing/CrawlerTest.cpp > CMakeFiles/URLNormalizerTesting.dir/testing/CrawlerTest.cpp.i
-
-CMakeFiles/URLNormalizerTesting.dir/testing/CrawlerTest.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/URLNormalizerTesting.dir/testing/CrawlerTest.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/suman/Desktop/Crawler/testing/CrawlerTest.cpp -o CMakeFiles/URLNormalizerTesting.dir/testing/CrawlerTest.cpp.s
+CMakeFiles/URLNormalizerTesting.dir/testing/IndexerTest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/URLNormalizerTesting.dir/testing/IndexerTest.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/suman/Desktop/Crawler/testing/IndexerTest.cpp -o CMakeFiles/URLNormalizerTesting.dir/testing/IndexerTest.cpp.s
 
 # Object files for target URLNormalizerTesting
 URLNormalizerTesting_OBJECTS = \
-"CMakeFiles/URLNormalizerTesting.dir/testing/URLNormalizerTest.cpp.o" \
-"CMakeFiles/URLNormalizerTesting.dir/testing/LinkExtractorTest.cpp.o" \
-"CMakeFiles/URLNormalizerTesting.dir/testing/FetcherTest.cpp.o" \
-"CMakeFiles/URLNormalizerTesting.dir/testing/FrontierTest.cpp.o" \
-"CMakeFiles/URLNormalizerTesting.dir/testing/SeenStoreTest.cpp.o" \
-"CMakeFiles/URLNormalizerTesting.dir/testing/PageStorageTest.cpp.o" \
-"CMakeFiles/URLNormalizerTesting.dir/testing/CrawlerTest.cpp.o"
+"CMakeFiles/URLNormalizerTesting.dir/testing/HTMLParserTest.cpp.o" \
+"CMakeFiles/URLNormalizerTesting.dir/testing/TokenizerTest.cpp.o" \
+"CMakeFiles/URLNormalizerTesting.dir/testing/StopWordRemoverTest.cpp.o" \
+"CMakeFiles/URLNormalizerTesting.dir/testing/InvertedIndexTest.cpp.o" \
+"CMakeFiles/URLNormalizerTesting.dir/testing/IndexStorageTest.cpp.o" \
+"CMakeFiles/URLNormalizerTesting.dir/testing/IndexerTest.cpp.o"
 
 # External object files for target URLNormalizerTesting
 URLNormalizerTesting_EXTERNAL_OBJECTS =
 
-URLNormalizerTesting: CMakeFiles/URLNormalizerTesting.dir/testing/URLNormalizerTest.cpp.o
-URLNormalizerTesting: CMakeFiles/URLNormalizerTesting.dir/testing/LinkExtractorTest.cpp.o
-URLNormalizerTesting: CMakeFiles/URLNormalizerTesting.dir/testing/FetcherTest.cpp.o
-URLNormalizerTesting: CMakeFiles/URLNormalizerTesting.dir/testing/FrontierTest.cpp.o
-URLNormalizerTesting: CMakeFiles/URLNormalizerTesting.dir/testing/SeenStoreTest.cpp.o
-URLNormalizerTesting: CMakeFiles/URLNormalizerTesting.dir/testing/PageStorageTest.cpp.o
-URLNormalizerTesting: CMakeFiles/URLNormalizerTesting.dir/testing/CrawlerTest.cpp.o
+URLNormalizerTesting: CMakeFiles/URLNormalizerTesting.dir/testing/HTMLParserTest.cpp.o
+URLNormalizerTesting: CMakeFiles/URLNormalizerTesting.dir/testing/TokenizerTest.cpp.o
+URLNormalizerTesting: CMakeFiles/URLNormalizerTesting.dir/testing/StopWordRemoverTest.cpp.o
+URLNormalizerTesting: CMakeFiles/URLNormalizerTesting.dir/testing/InvertedIndexTest.cpp.o
+URLNormalizerTesting: CMakeFiles/URLNormalizerTesting.dir/testing/IndexStorageTest.cpp.o
+URLNormalizerTesting: CMakeFiles/URLNormalizerTesting.dir/testing/IndexerTest.cpp.o
 URLNormalizerTesting: CMakeFiles/URLNormalizerTesting.dir/build.make
 URLNormalizerTesting: CMakeFiles/URLNormalizerTesting.dir/compiler_depend.ts
 URLNormalizerTesting: libfetcher.a
@@ -200,7 +184,7 @@ URLNormalizerTesting: /usr/lib/x86_64-linux-gnu/libcurl.so
 URLNormalizerTesting: /usr/lib/x86_64-linux-gnu/libsqlite3.so
 URLNormalizerTesting: /usr/lib/x86_64-linux-gnu/libgtest.a
 URLNormalizerTesting: CMakeFiles/URLNormalizerTesting.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/mnt/c/Users/suman/Desktop/Crawler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable URLNormalizerTesting"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/mnt/c/Users/suman/Desktop/Crawler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable URLNormalizerTesting"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/URLNormalizerTesting.dir/link.txt --verbose=$(VERBOSE)
 	/usr/bin/cmake -D TEST_TARGET=URLNormalizerTesting -D TEST_EXECUTABLE=/mnt/c/Users/suman/Desktop/Crawler/build/URLNormalizerTesting -D TEST_EXECUTOR= -D TEST_WORKING_DIR=/mnt/c/Users/suman/Desktop/Crawler/build -D TEST_EXTRA_ARGS= -D TEST_PROPERTIES= -D TEST_PREFIX= -D TEST_SUFFIX= -D TEST_FILTER= -D NO_PRETTY_TYPES=FALSE -D NO_PRETTY_VALUES=FALSE -D TEST_LIST=URLNormalizerTesting_TESTS -D CTEST_FILE=/mnt/c/Users/suman/Desktop/Crawler/build/URLNormalizerTesting[1]_tests.cmake -D TEST_DISCOVERY_TIMEOUT=5 -D TEST_DISCOVERY_EXTRA_ARGS= -D TEST_XML_OUTPUT_DIR= -P /usr/share/cmake-4.2/Modules/GoogleTestAddTests.cmake
 

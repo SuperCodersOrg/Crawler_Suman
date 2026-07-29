@@ -8,13 +8,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/mnt/c/Users/suman/Desktop/Crawler/testing/CrawlerTest.cpp" "CMakeFiles/URLNormalizerTesting.dir/testing/CrawlerTest.cpp.o" "gcc" "CMakeFiles/URLNormalizerTesting.dir/testing/CrawlerTest.cpp.o.d"
-  "/mnt/c/Users/suman/Desktop/Crawler/testing/FetcherTest.cpp" "CMakeFiles/URLNormalizerTesting.dir/testing/FetcherTest.cpp.o" "gcc" "CMakeFiles/URLNormalizerTesting.dir/testing/FetcherTest.cpp.o.d"
-  "/mnt/c/Users/suman/Desktop/Crawler/testing/FrontierTest.cpp" "CMakeFiles/URLNormalizerTesting.dir/testing/FrontierTest.cpp.o" "gcc" "CMakeFiles/URLNormalizerTesting.dir/testing/FrontierTest.cpp.o.d"
-  "/mnt/c/Users/suman/Desktop/Crawler/testing/LinkExtractorTest.cpp" "CMakeFiles/URLNormalizerTesting.dir/testing/LinkExtractorTest.cpp.o" "gcc" "CMakeFiles/URLNormalizerTesting.dir/testing/LinkExtractorTest.cpp.o.d"
-  "/mnt/c/Users/suman/Desktop/Crawler/testing/PageStorageTest.cpp" "CMakeFiles/URLNormalizerTesting.dir/testing/PageStorageTest.cpp.o" "gcc" "CMakeFiles/URLNormalizerTesting.dir/testing/PageStorageTest.cpp.o.d"
-  "/mnt/c/Users/suman/Desktop/Crawler/testing/SeenStoreTest.cpp" "CMakeFiles/URLNormalizerTesting.dir/testing/SeenStoreTest.cpp.o" "gcc" "CMakeFiles/URLNormalizerTesting.dir/testing/SeenStoreTest.cpp.o.d"
-  "/mnt/c/Users/suman/Desktop/Crawler/testing/URLNormalizerTest.cpp" "CMakeFiles/URLNormalizerTesting.dir/testing/URLNormalizerTest.cpp.o" "gcc" "CMakeFiles/URLNormalizerTesting.dir/testing/URLNormalizerTest.cpp.o.d"
+  "/mnt/c/Users/suman/Desktop/Crawler/testing/HTMLParserTest.cpp" "CMakeFiles/URLNormalizerTesting.dir/testing/HTMLParserTest.cpp.o" "gcc" "CMakeFiles/URLNormalizerTesting.dir/testing/HTMLParserTest.cpp.o.d"
+  "/mnt/c/Users/suman/Desktop/Crawler/testing/IndexStorageTest.cpp" "CMakeFiles/URLNormalizerTesting.dir/testing/IndexStorageTest.cpp.o" "gcc" "CMakeFiles/URLNormalizerTesting.dir/testing/IndexStorageTest.cpp.o.d"
+  "/mnt/c/Users/suman/Desktop/Crawler/testing/IndexerTest.cpp" "CMakeFiles/URLNormalizerTesting.dir/testing/IndexerTest.cpp.o" "gcc" "CMakeFiles/URLNormalizerTesting.dir/testing/IndexerTest.cpp.o.d"
+  "/mnt/c/Users/suman/Desktop/Crawler/testing/InvertedIndexTest.cpp" "CMakeFiles/URLNormalizerTesting.dir/testing/InvertedIndexTest.cpp.o" "gcc" "CMakeFiles/URLNormalizerTesting.dir/testing/InvertedIndexTest.cpp.o.d"
+  "/mnt/c/Users/suman/Desktop/Crawler/testing/StopWordRemoverTest.cpp" "CMakeFiles/URLNormalizerTesting.dir/testing/StopWordRemoverTest.cpp.o" "gcc" "CMakeFiles/URLNormalizerTesting.dir/testing/StopWordRemoverTest.cpp.o.d"
+  "/mnt/c/Users/suman/Desktop/Crawler/testing/TokenizerTest.cpp" "CMakeFiles/URLNormalizerTesting.dir/testing/TokenizerTest.cpp.o" "gcc" "CMakeFiles/URLNormalizerTesting.dir/testing/TokenizerTest.cpp.o.d"
   "" "URLNormalizerTesting" "gcc" "CMakeFiles/URLNormalizerTesting.dir/link.d"
   )
 

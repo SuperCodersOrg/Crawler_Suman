@@ -122,7 +122,7 @@ CMakeFiles/fetcher.dir/src/Database.cpp.o: \
  /usr/include/c++/15/bits/uses_allocator.h \
  /usr/include/c++/15/bits/uses_allocator_args.h /usr/include/c++/15/tuple \
  /usr/include/c++/15/bits/ranges_util.h \
- /mnt/c/Users/suman/Desktop/Crawler/src/../include/../../DS_Library/include/dynamicArray.h \
+ /mnt/c/Users/suman/Desktop/Crawler/src/../include/../../DS_Library/include/DynamicArray.h \
  /usr/include/c++/15/iostream /usr/include/c++/15/ostream \
  /usr/include/c++/15/bits/ostream.h /usr/include/c++/15/ios \
  /usr/include/c++/15/exception /usr/include/c++/15/bits/exception_ptr.h \
@@ -196,4 +196,5 @@ CMakeFiles/fetcher.dir/src/Database.cpp.o: \
  /usr/include/c++/15/bits/locale_conv.h \
  /usr/include/c++/15/bits/quoted_string.h /usr/include/c++/15/sstream \
  /usr/include/c++/15/bits/sstream.tcc \
- /mnt/c/Users/suman/Desktop/Crawler/src/../include/../../DS_Library/include/../src/../include/hashMap.h
+ /mnt/c/Users/suman/Desktop/Crawler/src/../include/../../DS_Library/include/../src/../include/hashMap.h \
+ /mnt/c/Users/suman/Desktop/Crawler/src/../include/PostingRecord.h
